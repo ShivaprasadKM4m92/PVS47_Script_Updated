@@ -1,0 +1,20 @@
+[t2]
+FileName2=t2_2_application-20282e3e3fad9c329f1728b037973a74.css
+RawStepEndTime=0
+FileName4=t2_0_login-23162286b278bf1e48cb0201c9e9a644.css
+RequestBodyFile=t2_RequestBody.txt
+RawStepName=authenticate
+ContentType=text/html
+URL1=http://10.100.22.24:8181/signal/
+URL2=http://10.100.22.24:8181/signal/assets/application-20282e3e3fad9c329f1728b037973a74.css
+URL3=http://10.100.22.24:8181/signal/assets/application-b6b2fa3a918957eb49ac1c12c36b30ec.js
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=http://10.100.22.24:8181/signal/assets/login-23162286b278bf1e48cb0201c9e9a644.css
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1590575180459
+Total=4
+StepName=Submit Data: authenticate
+FileName1=t2.html
+FileName3=t2_1_application-b6b2fa3a918957eb49ac1c12c36b30ec.UNK
