@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVS\Scripts\S13_LiteratureAlerts
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvs\scripts\s13_literaturealerts\\logfile.log
+c:\project\pvs\scripts\s13_literaturealerts\\combined_S13_LiteratureAlerts.c
+c:\project\pvs\scripts\s13_literaturealerts\\pre_cci.c

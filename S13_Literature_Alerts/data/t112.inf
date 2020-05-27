@@ -1,0 +1,11 @@
+[t112]
+FileName1=t112_websocket.html
+URL1=http://10.100.22.24:8181/signal/stomp/040/bjji9mo0/websocket
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_112.xml
+RequestHeaderFile=t112_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t112_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

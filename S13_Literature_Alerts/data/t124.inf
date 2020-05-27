@@ -1,0 +1,11 @@
+[t124]
+FileName1=t124_copyPasteModal-23c4a55ddeb74fe71b7e63fa6978b420.css
+URL1=http://10.100.22.24:8181/signal/assets/copyPasteModal-23c4a55ddeb74fe71b7e63fa6978b420.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_124.xml
+RequestHeaderFile=t124_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t124_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

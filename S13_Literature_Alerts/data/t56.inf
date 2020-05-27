@@ -1,0 +1,11 @@
+[t56]
+FileName1=t56_notify.min-1dba61fec15a5d71814b2c2cb69f65bf.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/notifyjs/dist/notify.min-1dba61fec15a5d71814b2c2cb69f65bf.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_56.xml
+RequestHeaderFile=t56_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t56_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

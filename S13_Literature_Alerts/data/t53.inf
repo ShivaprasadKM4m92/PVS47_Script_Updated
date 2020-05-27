@@ -1,0 +1,11 @@
+[t53]
+FileName1=t53_detect-fd56173b9f1574612026ca4bd0f9ce20.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/mobile/detect-fd56173b9f1574612026ca4bd0f9ce20.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_53.xml
+RequestHeaderFile=t53_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t53_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

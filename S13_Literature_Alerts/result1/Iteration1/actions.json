@@ -1,0 +1,171 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: signal",
+                "infFile": "t1.inf",
+                "time": 1590592535099
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t2.inf",
+                "time": 1590592541187
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: saveDashboardConfig",
+                "infFile": "t16.inf",
+                "time": 1590592555209
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: create",
+                "infFile": "t17.inf",
+                "time": 1590592559437
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: column-view-64c0085c608464f4a6f66e33d985ae27.html_2",
+                "infFile": "t19.inf",
+                "time": 1590592562887
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: info_2",
+                "infFile": "t20.inf",
+                "time": 1590592563299
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: polymer.html",
+                "infFile": "t21.inf",
+                "time": 1590592564349
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: polymer-mini.html",
+                "infFile": "t22.inf",
+                "time": 1590592564955
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: polymer-micro.html",
+                "infFile": "t23.inf",
+                "time": 1590592565612
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: searchViews",
+                "infFile": "t24.inf",
+                "time": 1590592566780
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: getSelectedItem",
+                "infFile": "t25.inf",
+                "time": 1590592567334
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: getPreLevelProductParents",
+                "infFile": "t26.inf",
+                "time": 1590592567893
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: getPreLevelProductParents_2",
+                "infFile": "t27.inf",
+                "time": 1590592568435
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: getPreLevelProductParents_3",
+                "infFile": "t28.inf",
+                "time": 1590592569020
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: searchUserGroupList",
+                "infFile": "t29.inf",
+                "time": 1590592569466
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Submit Data: run",
+                "infFile": "t30.inf",
+                "time": 1590592571311
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: dataTables_en.json",
+                "infFile": "t31.inf",
+                "time": 1590592572819
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: info_3",
+                "infFile": "t32.inf",
+                "time": 1590592573946
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: executionStatus",
+                "infFile": "t33.inf",
+                "time": 1590592574379
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: index",
+                "infFile": "t34.inf",
+                "time": 1590592575941
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S13_01_OpenApplication",
+                "rawStartTime": 1590592532539,
+                "rawEndTime": 1590592539358,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2644033432006836
+            },
+            {
+                "transactionName": "S13_02_Login",
+                "rawStartTime": 1590592539362,
+                "rawEndTime": 1590592554127,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2049555778503418
+            },
+            {
+                "transactionName": "S13_03_NavigateLiteratureAlert",
+                "rawStartTime": 1590592554132,
+                "rawEndTime": 1590592566012,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1564645767211914
+            },
+            {
+                "transactionName": "S13_04_SearchAndAddProduct",
+                "rawStartTime": 1590592566018,
+                "rawEndTime": 1590592569039,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04265236854553223
+            },
+            {
+                "transactionName": "S13_05_CreateLiteratureAlertAlert",
+                "rawStartTime": 1590592569472,
+                "rawEndTime": 1590592574449,
+                "thinkTime": 0.0,
+                "wastedTime": 0.058660268783569339
+            },
+            {
+                "transactionName": "S13_06_Logout",
+                "rawStartTime": 1590592574453,
+                "rawEndTime": 1590592575943,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007090330123901367
+            }
+        ]
+    }
+]

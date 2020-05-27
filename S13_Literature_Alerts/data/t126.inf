@@ -1,0 +1,11 @@
+[t126]
+FileName1=t126_dateRangeLiterature-c3b0611a9416ab79b58c7a10d4e88796.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/literatureSearch/dateRangeLiterature-c3b0611a9416ab79b58c7a10d4e88796.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_126.xml
+RequestHeaderFile=t126_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t126_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

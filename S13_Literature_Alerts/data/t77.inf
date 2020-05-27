@@ -1,0 +1,11 @@
+[t77]
+FileName1=t77_spring-websocket-867783f03d5a8005372950a4b8cac2a4.html
+URL1=http://10.100.22.24:8181/signal/assets/spring-websocket-867783f03d5a8005372950a4b8cac2a4.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_77.xml
+RequestHeaderFile=t77_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t77_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

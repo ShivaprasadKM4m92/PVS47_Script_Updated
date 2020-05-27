@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:19:20 GMT
+ETag: "plugin/dictionary/polymer-micro-0c3678e50857ddb532ff7c8ce13cf1be.html"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Content-Length: 4251
+Date: Tue, 26 May 2020 05:18:51 GMT
+

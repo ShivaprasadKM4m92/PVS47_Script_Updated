@@ -1,0 +1,11 @@
+[t152]
+FileName1=t152_Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIYCTYpmtasdEcoEgsNvYWDDxIAGgAiABoA.txt
+URL1=https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIYCTYpmtasdEcoEgsNvYWDDxIAGgAiABoA?alt=proto
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_152.xml
+RequestHeaderFile=t152_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t152_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

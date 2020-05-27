@@ -1,0 +1,9 @@
+[t136]
+FileName1=t136.html
+URL1=http://10.100.22.24:8181/signal/assets/plugin/dictionary/column-view-64c0085c608464f4a6f66e33d985ae27.html
+Total=1
+RequestHeaderFile=t136_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t136_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_136.xml
