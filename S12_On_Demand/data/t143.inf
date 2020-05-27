@@ -1,0 +1,11 @@
+[t143]
+FileName1=t143_Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIlCVQipXOhb-ZZEgsN818igxIAGgAiABILDb2Fgw8SABoAIgAaAA==.txt
+URL1=https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIlCVQipXOhb-ZZEgsN818igxIAGgAiABILDb2Fgw8SABoAIgAaAA==?alt=proto
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_143.xml
+RequestHeaderFile=t143_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t143_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

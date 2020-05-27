@@ -1,0 +1,171 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: signal",
+                "infFile": "t1.inf",
+                "time": 1590589262605
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t2.inf",
+                "time": 1590589270112
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: saveDashboardConfig",
+                "infFile": "t16.inf",
+                "time": 1590589307845
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: adhocReview",
+                "infFile": "t17.inf",
+                "time": 1590589309540
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: priorities",
+                "infFile": "t18.inf",
+                "time": 1590589353258
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: workflowState",
+                "infFile": "t19.inf",
+                "time": 1590589353866
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: info_2",
+                "infFile": "t20.inf",
+                "time": 1590589354338
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: listConfig",
+                "infFile": "t21.inf",
+                "time": 1590589354913
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: adhocReview_2",
+                "infFile": "t22.inf",
+                "time": 1590589356533
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: priorities_2",
+                "infFile": "t23.inf",
+                "time": 1590589358043
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: workflowState_2",
+                "infFile": "t24.inf",
+                "time": 1590589358567
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: info_3",
+                "infFile": "t25.inf",
+                "time": 1590589359200
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: listConfig_2",
+                "infFile": "t26.inf",
+                "time": 1590589359870
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: adhocReview_3",
+                "infFile": "t27.inf",
+                "time": 1590589361196
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: priorities_3",
+                "infFile": "t28.inf",
+                "time": 1590589362463
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: workflowState_3",
+                "infFile": "t29.inf",
+                "time": 1590589363092
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: dataTables_en.json",
+                "infFile": "t30.inf",
+                "time": 1590589363706
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: info_4",
+                "infFile": "t31.inf",
+                "time": 1590589364488
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: listAdhocConfig",
+                "infFile": "t32.inf",
+                "time": 1590589365037
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: index",
+                "infFile": "t33.inf",
+                "time": 1590589366860
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S12_01_OpenApplication",
+                "rawStartTime": 1590589259810,
+                "rawEndTime": 1590589267641,
+                "thinkTime": 0.0,
+                "wastedTime": 0.38475608825683596
+            },
+            {
+                "transactionName": "S12_02_Login",
+                "rawStartTime": 1590589267651,
+                "rawEndTime": 1590589307252,
+                "thinkTime": 0.0,
+                "wastedTime": 0.26252031326293948
+            },
+            {
+                "transactionName": "S12_03_NavigateOnDemandQualitative",
+                "rawStartTime": 1590589307308,
+                "rawEndTime": 1590589355006,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0956571102142334
+            },
+            {
+                "transactionName": "S12_04_NavigateOnDemandQuantitative",
+                "rawStartTime": 1590589355017,
+                "rawEndTime": 1590589359912,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10325884819030762
+            },
+            {
+                "transactionName": "S12_05_NavigateOnDemandEVDAS",
+                "rawStartTime": 1590589359920,
+                "rawEndTime": 1590589365161,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11888289451599121
+            },
+            {
+                "transactionName": "S12_06_Logout",
+                "rawStartTime": 1590589365171,
+                "rawEndTime": 1590589366868,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007295370101928711
+            }
+        ]
+    }
+]

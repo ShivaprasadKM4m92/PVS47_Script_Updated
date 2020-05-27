@@ -1,0 +1,11 @@
+[t127]
+FileName1=t127_Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIYCTYpmtasdEcoEgsNvYWDDxIAGgAiABoAEhgJTSX__nQN0pkSCw2duYV-EgAaACIAGgA=.txt
+URL1=https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIYCTYpmtasdEcoEgsNvYWDDxIAGgAiABoAEhgJTSX__nQN0pkSCw2duYV-EgAaACIAGgA=?alt=proto
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_127.xml
+RequestHeaderFile=t127_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t127_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

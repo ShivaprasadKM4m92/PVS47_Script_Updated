@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVS\Scripts\S12_OnDemand
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvs\scripts\s12_ondemand\\logfile.log
+c:\project\pvs\scripts\s12_ondemand\\combined_S12_OnDemand.c
+c:\project\pvs\scripts\s12_ondemand\\pre_cci.c

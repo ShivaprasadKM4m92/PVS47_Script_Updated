@@ -1,0 +1,15 @@
+POST /signal/dashboard/saveDashboardConfig HTTP/1.1
+Host: 10.100.22.24:8181
+Connection: keep-alive
+Content-Length: 3556
+Accept: */*
+X-CSRF-TOKEN: c9c65e54-8b5b-48a3-a9ef-9f05b93e42de
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://10.100.22.24:8181
+Referer: http://10.100.22.24:8181/signal/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=bd67715d-0a1c-4ebe-9b15-9137be5b3c64
+

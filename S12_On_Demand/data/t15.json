@@ -1,0 +1,6 @@
+{
+  "access_token": "ya29.a0AfH6SMAg6bGY2ABIKDV3PluzCLJmdZYL0EcrCiaKccsvQf1017IQPnkpJghtJpSjFAkZmw4MpSkpZx0Eu_hog4A8W-PTbqNujNfc5AmPC4VEXFinuJ02LRhDSjkTg1bBPFmxH9PoIuGA2pV3AbWytyXXXNMO1BofZnwKkI10KTcV4aXWIQLNaksv6cbUjYPHylSPQPQcmkMGfHYIU8e1SFjEGx_1CgDvRTELZRGR0QJroO9MjEFM0GFpVRYYbMnC0aLVApO0AA",
+  "expires_in": 3599,
+  "scope": "https://www.google.com/accounts/OAuthLogin",
+  "token_type": "Bearer"
+}

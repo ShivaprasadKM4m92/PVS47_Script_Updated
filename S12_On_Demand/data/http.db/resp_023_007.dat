@@ -1,0 +1,4 @@
+37c
+{"aaData":[{"id":6,"name":"Qual_perf2","version":1,"description":null,"dataSource":"pva","frequency":"null","productSelection":"PEGINTRON 120 MICROGRAMOS POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE","pecCount":0,"closedPecCount":0,"alertPriority":"Urgent","dateRagne":"01-Jan-1900 to 21-May-2020","type":"Aggregate Case Alert","lastExecuted":"21-May-2020","lastModified":"21-May-2020","sporfireCumulativeUrl":null,"sporfireRangeUrl":null,"IsShareWithAccess":true},{"id":2,"name":"Perf2","version":1,"description":null,"dataSource":"pva","frequency":"null","productSelection":"0172 ORAL","pecCount":580,"closedPecCount":0,"alertPriority":"Urgent","dateRagne":"01-Jan-1900 to 21-May-2020","type":"Aggregate Case Alert","lastExecuted":"21-May-2020","lastModified":"21-May-2020","sporfireCumulativeUrl":null,"sporfireRangeUrl":null,"IsShareWithAccess":true}],"recordsTotal":2,"recordsFiltered":2}
+0
+

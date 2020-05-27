@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28_workflowModal-8863a855e0d38b1c16a0b929c87a1eb2.css
+URL1=http://10.100.22.24:8181/signal/assets/workflowModal-8863a855e0d38b1c16a0b929c87a1eb2.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_28.xml
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

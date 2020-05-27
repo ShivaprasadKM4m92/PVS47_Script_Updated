@@ -1,0 +1,11 @@
+[t121]
+FileName1=t121_single_case_alert_review_adhoc-f3e426d12d0ff0f1ad6a5ea572cb0bf4.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/alerts_review/single_case_alert_review_adhoc-f3e426d12d0ff0f1ad6a5ea572cb0bf4.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_121.xml
+RequestHeaderFile=t121_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t121_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

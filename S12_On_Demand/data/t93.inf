@@ -1,0 +1,9 @@
+[t93]
+SnapshotXmlFile=snapshot_93.xml
+FileName1=t93.png
+URL1=http://10.100.22.24:8181/signal/assets/left_bg-b4ea12efc891fcaf7bd4c4b3ba9828cf.png
+Total=1
+RequestHeaderFile=t93_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t93_ResponseHeader.txt
+ContentType=image/png
