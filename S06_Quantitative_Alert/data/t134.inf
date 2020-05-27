@@ -1,0 +1,11 @@
+[t134]
+FileName1=t134_dictionaryMultiSearch-0020fa62bf78dac826cf4c30cfa199c3.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/configuration/dictionaryMultiSearch-0020fa62bf78dac826cf4c30cfa199c3.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_134.xml
+RequestHeaderFile=t134_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t134_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

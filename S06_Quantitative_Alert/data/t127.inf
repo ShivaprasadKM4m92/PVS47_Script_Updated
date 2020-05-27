@@ -1,0 +1,11 @@
+[t127]
+FileName1=t127_dateRange-1abecbf9ac1d18b3d17e5738dad26804.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/configuration/dateRange-1abecbf9ac1d18b3d17e5738dad26804.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_127.xml
+RequestHeaderFile=t127_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t127_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

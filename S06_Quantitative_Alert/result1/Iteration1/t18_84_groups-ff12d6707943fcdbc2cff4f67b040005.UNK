@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#groups").select2({placeholder:"Select groups",allowClear:!0,width:"100%"})});

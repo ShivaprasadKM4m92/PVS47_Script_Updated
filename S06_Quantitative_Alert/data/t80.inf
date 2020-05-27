@@ -1,0 +1,11 @@
+[t80]
+FileName1=t80_fullcalendar.min-eadac4139211e13292deb9473e638d45.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/fullcalendar.min-eadac4139211e13292deb9473e638d45.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_80.xml
+RequestHeaderFile=t80_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t80_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

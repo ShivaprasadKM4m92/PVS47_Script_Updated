@@ -1,0 +1,19 @@
+POST /signal/login/authenticate HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://10.100.22.24:8181/signal/login/auth
+X-Goog-Update-AppId: aapocclcgogkmnckokdopfmhonfmgoek,aohghmighlieiainnegkcijnfilokake,apdfllckaahabafndbhieahigkjlhalf,blpcfgokakmgnkcojhhkbfbldkacnbeo,felcaaldnbdncclmgdcncolpebgiejap,ghbmnnjooekpmoecnnnilnnbdlolhkhi,nmmhkkegccagdldgiimedpiccmgmieda,pjkljhegncpnkpknbcohdijeoejaedia,pkedcjkdefgpdelpbcmbmeomcjbeemfm
+X-Goog-Update-Updater: chromecrx-81.0.4044.138
+X-Goog-Update-AppId: ihnlcenocehgdaegdmhbidjhnhdchfmm,oimompecagnajdejgnnjijobebaeigek,hnimpnehoodheedghdeeijklkeaacbdc,gcmjkmgdlgnkkcocmoeiminaijmmjnii,hfnkpimlhhgieaddgfemjhofmfblmnib,llkgjffcdpffmhiakmfcdcblohccpfmo,gkmgaooipdjhmangpemjhigmamcehddo,aemomkdncapdnfajjbbcbdebjljbpmpj,jflookgnkcckhobaglndicnbbgbonegd,ggkkehgbnfjpeggfpleeakpidbkibbmn,copjbmjbojbakpaedmpkhmiplmmehfck,mimojjlkmoijpicakmndhoigimigcmbb,bklopemakmnopmghhmccadeonafabnal,khaoiebndkojlmppeemjhbpbandiljpe,giekcmmlnklenlaomppkphknjmnnpneh,ehgidpndbllacpjalkiimkbadgjfnnmc
+X-Goog-Update-Updater: chrome-81.0.4044.138
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+Origin: http://10.100.22.24:8181
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: Keep-Alive
+Host: 10.100.22.24:8181
+Cookie: SESSION=508a7afb-31a6-40df-8ae0-744ed59d0c70
+Content-Length: 74
+

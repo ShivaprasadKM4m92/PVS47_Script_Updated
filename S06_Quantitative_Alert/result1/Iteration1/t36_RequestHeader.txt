@@ -1,0 +1,11 @@
+GET /signal/assets/i18n/dataTables_en.json HTTP/1.1
+Referer: http://10.100.22.24:8181/signal/configuration/executionStatus?alertType=SINGLE_CASE_ALERT
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN
+X-Requested-With: XMLHttpRequest
+Connection: Keep-Alive
+Host: 10.100.22.24:8181
+Cookie: SESSION=e4b3ecc3-0a29-4228-abe3-61f42021c3a6
+

@@ -1,0 +1,11 @@
+[t176]
+FileName1=t176_dataTables_en.json
+URL1=http://10.100.22.24:8181/signal/assets/i18n/dataTables_en.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_176.xml
+RequestHeaderFile=t176_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t176_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

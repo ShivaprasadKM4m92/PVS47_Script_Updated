@@ -1,0 +1,10 @@
+GET /signal/stomp/info HTTP/1.1
+Referer: http://10.100.22.24:8181/signal/configuration/executionStatus?alertType=SINGLE_CASE_ALERT
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN
+Accept: */*
+Connection: Keep-Alive
+Host: 10.100.22.24:8181
+Cookie: SESSION=bbab45c1-f937-497d-b8fe-517a86cbff75
+

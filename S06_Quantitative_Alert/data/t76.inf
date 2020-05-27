@@ -1,0 +1,11 @@
+[t76]
+FileName1=t76_actions-c6db5fb63baee4c159b9e783821b2058.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/actions/actions-c6db5fb63baee4c159b9e783821b2058.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_76.xml
+RequestHeaderFile=t76_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t76_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

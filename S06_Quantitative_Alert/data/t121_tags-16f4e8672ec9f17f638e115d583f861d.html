@@ -1,0 +1,1 @@
+function showTagWidget(b){$("#tags").select2({tags:!0,placeholder:"Select Tags",allowClear:!0,width:"100%",createTag:function(a){a=$.trim(a.term);return""!=a&&b?{id:a,text:a}:null}})};

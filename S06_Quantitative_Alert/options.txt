@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVS\Scripts\S06_QuantitativeAlert
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvs\scripts\s06_quantitativealert\\logfile.log
+c:\project\pvs\scripts\s06_quantitativealert\\combined_S06_QuantitativeAlert.c
+c:\project\pvs\scripts\s06_quantitativealert\\pre_cci.c

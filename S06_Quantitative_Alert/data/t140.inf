@@ -1,0 +1,11 @@
+[t140]
+SnapshotXmlFile=snapshot_140.xml
+FileName1=t140.gif
+URL1=http://10.100.22.24:8181/signal/assets/select2-spinner-7b9776076d5fceef4993b55c9383dedd.gif
+Total=1
+RequestHeaderFile=t140_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t140_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1
