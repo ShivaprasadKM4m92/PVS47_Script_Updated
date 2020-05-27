@@ -1,0 +1,74 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=S03_Qualitative_Review.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="S03_01_OpenApplication__*delimiter*__S03_02_Login__*delimiter*__S03_03_NavigateTriggeredAlertsQualitativeReview__*delimiter*__S03_04_ClickOnAlertName__*delimiter*__S03_05_SelectDetailedView__*delimiter*__S03_06_UnSelectDetailedView__*delimiter*__S03_07_SaveFilterAndApply__*delimiter*__EditFilter__*delimiter*__S03_08_Delete filter__*delimiter*__AddView__*delimiter*__S03_09_SaveView__*delimiter*__S03_10_SystemView__*delimiter*__S03_11_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+S03_01_OpenApplication=
+S03_02_Login=
+S03_03_NavigateTriggeredAlertsQualitativeReview=
+S03_04_ClickOnAlertName=
+S03_05_SelectDetailedView=
+S03_06_UnSelectDetailedView=
+S03_07_SaveFilterAndApply=
+EditFilter=
+"S03_08_Delete filter"=
+AddView=
+S03_09_SaveView=
+S03_10_SystemView=
+S03_11_Logout=

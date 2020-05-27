@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Shiva Prasad KM\Documents\GitHub\PVS47_Scripts\NewScripts\S03_Qualitative_Review
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\shiva prasad km\documents\github\pvs47_scripts\newscripts\s03_qualitative_review\\logfile.log
+c:\users\shiva prasad km\documents\github\pvs47_scripts\newscripts\s03_qualitative_review\\combined_S03_Qualitative_Review.c
+c:\users\shiva prasad km\documents\github\pvs47_scripts\newscripts\s03_qualitative_review\\pre_cci.c
