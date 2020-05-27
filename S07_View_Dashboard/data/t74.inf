@@ -1,0 +1,11 @@
+[t74]
+FileName1=t74_userGroupSelect-7f7d244cad34902e9681267c696c1bed.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/userGroupSelect-7f7d244cad34902e9681267c696c1bed.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_74.xml
+RequestHeaderFile=t74_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t74_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

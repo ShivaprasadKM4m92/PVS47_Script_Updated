@@ -1,0 +1,11 @@
+[t109]
+FileName1=t109_alertList.json
+URL1=http://10.100.22.24:8181/signal/dashboard/alertList?_=1590495928037
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_109.xml
+RequestHeaderFile=t109_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t109_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

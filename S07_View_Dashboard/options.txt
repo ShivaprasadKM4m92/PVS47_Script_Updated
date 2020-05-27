@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVS\Scripts\S07_ViewDashboard
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvs\scripts\s07_viewdashboard\\logfile.log
+c:\project\pvs\scripts\s07_viewdashboard\\combined_S07_ViewDashboard.c
+c:\project\pvs\scripts\s07_viewdashboard\\pre_cci.c

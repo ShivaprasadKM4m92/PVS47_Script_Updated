@@ -1,0 +1,73 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: signal",
+                "infFile": "t1.inf",
+                "time": 1590585705700
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t2.inf",
+                "time": 1590585708942
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: saveDashboardConfig",
+                "infFile": "t14.inf",
+                "time": 1590585713186
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: signal_2",
+                "infFile": "t15.inf",
+                "time": 1590585715398
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: saveDashboardConfig_2",
+                "infFile": "t27.inf",
+                "time": 1590585717671
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: index",
+                "infFile": "t28.inf",
+                "time": 1590585719327
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S07_T01_OpenApplication",
+                "rawStartTime": 1590585704321,
+                "rawEndTime": 1590585705919,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010806798934936524
+            },
+            {
+                "transactionName": "S07_T02_Login",
+                "rawStartTime": 1590585705928,
+                "rawEndTime": 1590585710988,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07083702087402344
+            },
+            {
+                "transactionName": "S07_T03_ClickDashboard",
+                "rawStartTime": 1590585710996,
+                "rawEndTime": 1590585716959,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08283209800720215
+            },
+            {
+                "transactionName": "S07_T04_LogOut",
+                "rawStartTime": 1590585716968,
+                "rawEndTime": 1590585719332,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019832849502563478
+            }
+        ]
+    }
+]

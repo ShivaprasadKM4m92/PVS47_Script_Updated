@@ -1,0 +1,11 @@
+[t71]
+FileName1=t71_pvs_app_widget-ec77f7e909db8bab59e572285b1c3389.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/pvs_app_widget-ec77f7e909db8bab59e572285b1c3389.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_71.xml
+RequestHeaderFile=t71_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t71_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

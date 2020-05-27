@@ -1,0 +1,11 @@
+[t33]
+FileName1=t33_bootstrap.min-3f6aa77f4768de267c35a96028599ce3.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/bootstrap/bootstrap.min-3f6aa77f4768de267c35a96028599ce3.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_33.xml
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t33_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

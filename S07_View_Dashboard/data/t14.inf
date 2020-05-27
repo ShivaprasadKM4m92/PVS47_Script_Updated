@@ -1,0 +1,9 @@
+[t14]
+SnapshotXmlFile=snapshot_14.xml
+FileName1=t14.jpg
+URL1=http://10.100.22.24:8181/signal/assets/background-4c8c4fd7df1b6436735eac4cfed91698.jpg
+Total=1
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=image/jpeg
