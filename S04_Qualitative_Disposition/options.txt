@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVS\Scripts\S04_QualitativeDisposition
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvs\scripts\s04_qualitativedisposition\\logfile.log
+c:\project\pvs\scripts\s04_qualitativedisposition\\combined_S04_QualitativeDisposition.c
+c:\project\pvs\scripts\s04_qualitativedisposition\\pre_cci.c

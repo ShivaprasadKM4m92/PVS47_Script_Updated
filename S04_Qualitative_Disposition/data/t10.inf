@@ -1,0 +1,9 @@
+[t10]
+SnapshotXmlFile=snapshot_10.xml
+FileName1=t10.jpg
+URL1=http://10.100.22.24:8181/signal/assets/background-4c8c4fd7df1b6436735eac4cfed91698.jpg
+Total=1
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=image/jpeg
