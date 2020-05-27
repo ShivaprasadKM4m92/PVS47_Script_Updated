@@ -1,0 +1,11 @@
+[t41]
+FileName1=t41_datetime-moment-3fa3fc8eaf60abe3fae2bae2fb4328b0.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/datatables/datetime-moment-3fa3fc8eaf60abe3fae2bae2fb4328b0.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_41.xml
+RequestHeaderFile=t41_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t41_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t173]
+FileName1=t173_bootstrap-timepicker.min-c61759ebbf0b9c32d7dd4b576a02b3af.html
+URL1=http://10.100.22.24:8181/signal/assets/bootstrap-timepicker/bootstrap-timepicker.min-c61759ebbf0b9c32d7dd4b576a02b3af.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_173.xml
+RequestHeaderFile=t173_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t173_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

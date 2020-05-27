@@ -1,0 +1,11 @@
+[t177]
+FileName1=t177_summaryReportPreference-e2a8c6bda3f93e63f516e7078771f2ee.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/documentManagement/summaryReportPreference-e2a8c6bda3f93e63f516e7078771f2ee.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_177.xml
+RequestHeaderFile=t177_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t177_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

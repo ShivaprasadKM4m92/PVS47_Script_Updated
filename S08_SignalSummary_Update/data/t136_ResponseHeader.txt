@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:19:26 GMT
+ETag: "app/dms/dmsConfiguration-dd126e153d823fef612ba29b3824b193.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 1756
+Date: Mon, 25 May 2020 11:10:10 GMT
+

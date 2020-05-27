@@ -1,0 +1,9 @@
+[t93]
+SnapshotXmlFile=snapshot_93.xml
+FileName1=t93.jpg
+URL1=http://10.100.22.24:8181/signal/assets/section-hd-bg-8eaf77fc4a1a47c48ca4b2e3d5a96340.jpg
+Total=1
+RequestHeaderFile=t93_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t93_ResponseHeader.txt
+ContentType=image/jpeg

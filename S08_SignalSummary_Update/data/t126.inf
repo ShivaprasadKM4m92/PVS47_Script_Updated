@@ -1,0 +1,11 @@
+[t126]
+FileName1=t126_viewColumnInfo.json
+URL1=http://10.100.22.24:8181/signal/viewInstance/viewColumnInfo?viewInstance.id=8478&_=1590404989153
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_126.xml
+RequestHeaderFile=t126_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t126_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

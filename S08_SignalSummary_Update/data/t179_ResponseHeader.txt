@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:17:58 GMT
+ETag: "app/pvs/activity/activities-c675edac8f3d769b686522882abd176e.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 1341
+Date: Mon, 25 May 2020 11:10:13 GMT
+

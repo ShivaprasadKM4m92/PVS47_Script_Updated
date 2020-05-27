@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:18:10 GMT
+ETag: "app/pvs/signalHistory/signalHistoryTable-0c39c083359e752e14f0fb791c71bd84.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 510
+Date: Mon, 25 May 2020 11:10:12 GMT
+

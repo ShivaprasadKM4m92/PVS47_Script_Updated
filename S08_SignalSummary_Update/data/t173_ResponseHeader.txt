@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:17:16 GMT
+ETag: "bootstrap-timepicker/bootstrap-timepicker.min-c61759ebbf0b9c32d7dd4b576a02b3af.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 4629
+Date: Mon, 25 May 2020 11:10:12 GMT
+

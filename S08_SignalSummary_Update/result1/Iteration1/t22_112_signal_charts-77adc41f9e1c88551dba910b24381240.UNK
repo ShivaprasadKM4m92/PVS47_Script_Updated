@@ -1,0 +1,3 @@
+var signal=signal||{};
+signal.charts=function(){return{draw_bar_chart:function(b,c,a){return Highcharts.chart(b,{chart:{type:"column"},title:{text:a.title},subtitle:{text:a.subject},xAxis:{type:"Months",labels:{rotation:-45,style:{fontSize:"13px",fontFamily:"Verdana, sans-serif"}}},yAxis:{min:0,title:{text:a.value_title}},legend:{enabled:!0},tooltip:{pointFormat:a.subject+" in "+a.time+": <b>{point.y:.1f}</b>"},series:[{name:"Population",data:a.data,dataLabels:{enabled:!0,rotation:-90,color:"#FFFFFF",align:"right",format:"{point.y:.1f}",
+y:10,style:{fontSize:"13px",fontFamily:"Verdana, sans-serif"}}}]})},direct_draw_bar_chart:function(b,c){return Highcharts.chart(b,c)}}}();

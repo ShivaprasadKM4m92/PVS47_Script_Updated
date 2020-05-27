@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:17:52 GMT
+ETag: "app/pvs/validated_signal/actionManagement-f820db355f55ab6e392ac1989dd91a74.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 18146
+Date: Mon, 25 May 2020 11:10:12 GMT
+

@@ -1,0 +1,11 @@
+[t195]
+FileName1=t195_adHocAlertList.json
+URL1=http://10.100.22.24:8181/signal/validatedSignal/adHocAlertList?id=8479&_=1590405010842
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_195.xml
+RequestHeaderFile=t195_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t195_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

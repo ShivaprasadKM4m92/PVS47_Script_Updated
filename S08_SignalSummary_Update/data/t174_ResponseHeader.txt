@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:16:28 GMT
+ETag: "jquery-picklist-2048c1f4a033c97a39a65f4accd34e0f.css"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: text/css;charset=UTF-8
+Content-Length: 316
+Date: Mon, 25 May 2020 11:10:12 GMT
+

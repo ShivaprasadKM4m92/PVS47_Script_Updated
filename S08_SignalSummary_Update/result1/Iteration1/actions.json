@@ -1,0 +1,195 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: signal",
+                "infFile": "t1.inf",
+                "time": 1590586950514
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t2.inf",
+                "time": 1590586956520
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: saveDashboardConfig",
+                "infFile": "t16.inf",
+                "time": 1590586969525
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: index",
+                "infFile": "t17.inf",
+                "time": 1590586971209
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: viewColumnInfo",
+                "infFile": "t18.inf",
+                "time": 1590586973007
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: list",
+                "infFile": "t19.inf",
+                "time": 1590586973791
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: info_2",
+                "infFile": "t20.inf",
+                "time": 1590586974306
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: details",
+                "infFile": "t21.inf",
+                "time": 1590586980555
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: update",
+                "infFile": "t39.inf",
+                "time": 1590586988459
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: graphReport",
+                "infFile": "t40.inf",
+                "time": 1590587019877
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: searchUserGroupList",
+                "infFile": "t41.inf",
+                "time": 1590587020376
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: save",
+                "infFile": "t42.inf",
+                "time": 1590587021167
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: listByAlert_2",
+                "infFile": "t43.inf",
+                "time": 1590587021770
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: list_3",
+                "infFile": "t44.inf",
+                "time": 1590587022198
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: {Signal_Id}_3",
+                "infFile": "t45.inf",
+                "time": 1590587022806
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: {Signal_Id}_4",
+                "infFile": "t46.inf",
+                "time": 1590587023352
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: index_2",
+                "infFile": "t47.inf",
+                "time": 1590587025858
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S08_01_OpenApplication",
+                "rawStartTime": 1590586947549,
+                "rawEndTime": 1590586954411,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3416304588317871
+            },
+            {
+                "transactionName": "S08_02_Login",
+                "rawStartTime": 1590586954422,
+                "rawEndTime": 1590586968857,
+                "thinkTime": 0.0,
+                "wastedTime": 0.15809226036071778
+            },
+            {
+                "transactionName": "S08_03_NavigateSignalSummary",
+                "rawStartTime": 1590586968873,
+                "rawEndTime": 1590586974393,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07362222671508789
+            },
+            {
+                "transactionName": "S08_04_ClickOnaSignal",
+                "rawStartTime": 1590586974405,
+                "rawEndTime": 1590586987763,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3024599552154541
+            },
+            {
+                "transactionName": "S08_05_UpdateComments",
+                "rawStartTime": 1590586987771,
+                "rawEndTime": 1590586988469,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009846210479736328
+            },
+            {
+                "transactionName": "S08_06_NavigateAssessmentTab",
+                "rawStartTime": 1590586988479,
+                "rawEndTime": 1590587019880,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010696887969970703
+            },
+            {
+                "transactionName": "S08_07_NavigateActionsandWorkflow",
+                "rawStartTime": 1590587019889,
+                "rawEndTime": 1590587019893,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S08_08_NewAction",
+                "rawStartTime": 1590587019901,
+                "rawEndTime": 1590587020445,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010128974914550782
+            },
+            {
+                "transactionName": "S08_09_CreateAction",
+                "rawStartTime": 1590587020497,
+                "rawEndTime": 1590587022820,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04236340522766113
+            },
+            {
+                "transactionName": "S08_10_DocumentManagement",
+                "rawStartTime": 1590587022828,
+                "rawEndTime": 1590587022832,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "S08_11_NavigateActivityLogTab",
+                "rawStartTime": 1590587022840,
+                "rawEndTime": 1590587023365,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008106708526611328
+            },
+            {
+                "transactionName": "S08_12_Logout",
+                "rawStartTime": 1590587023373,
+                "rawEndTime": 1590587025864,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02009129524230957
+            }
+        ]
+    }
+]

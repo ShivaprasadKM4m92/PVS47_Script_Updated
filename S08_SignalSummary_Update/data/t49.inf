@@ -1,0 +1,11 @@
+[t49]
+FileName1=t49_jquery.nicescroll-09e3ca9889499cfb15271ad8dc51f842.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/jquery/jquery.nicescroll-09e3ca9889499cfb15271ad8dc51f842.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_49.xml
+RequestHeaderFile=t49_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t49_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

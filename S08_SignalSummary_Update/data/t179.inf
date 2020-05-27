@@ -1,0 +1,11 @@
+[t179]
+FileName1=t179_activities-c675edac8f3d769b686522882abd176e.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/activity/activities-c675edac8f3d769b686522882abd176e.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_179.xml
+RequestHeaderFile=t179_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t179_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t159]
+FileName1=t159_dygraph-9ffc8edc13e94f06f279514e89ae9a34.css
+URL1=http://10.100.22.24:8181/signal/assets/dygraph-9ffc8edc13e94f06f279514e89ae9a34.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_159.xml
+RequestHeaderFile=t159_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t159_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

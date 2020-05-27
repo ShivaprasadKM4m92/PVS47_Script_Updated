@@ -1,0 +1,11 @@
+[t178]
+FileName1=t178_column-view-64c0085c608464f4a6f66e33d985ae27.html
+URL1=http://10.100.22.24:8181/signal/assets/plugin/dictionary/column-view-64c0085c608464f4a6f66e33d985ae27.html
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_178.xml
+RequestHeaderFile=t178_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t178_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

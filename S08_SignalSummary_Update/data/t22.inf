@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22_pvs_app_css-794a4a77a2a4bcc45fa913cd043a5ab3.css
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/pvs_app_css-794a4a77a2a4bcc45fa913cd043a5ab3.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

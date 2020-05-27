@@ -1,0 +1,11 @@
+[t136]
+FileName1=t136_dmsConfiguration-dd126e153d823fef612ba29b3824b193.html
+URL1=http://10.100.22.24:8181/signal/assets/app/dms/dmsConfiguration-dd126e153d823fef612ba29b3824b193.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_136.xml
+RequestHeaderFile=t136_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t136_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

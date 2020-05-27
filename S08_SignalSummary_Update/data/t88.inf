@@ -1,0 +1,11 @@
+[t88]
+FileName1=t88_calendar-4d078ca93abd6a53a6f9c1bf8f79cd54.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/calendar-4d078ca93abd6a53a6f9c1bf8f79cd54.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_88.xml
+RequestHeaderFile=t88_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t88_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,4 @@
+2fa
+[{"containerView":1,"label":"Product Name","name":"productName","listOrder":0,"seq":2},{"containerView":1,"label":"Event Name","name":"eventName","listOrder":1,"seq":3},{"containerView":1,"label":"PEC Count","name":"noOfPec","listOrder":2,"seq":4},{"containerView":1,"label":"Case Count","name":"noOfCases","listOrder":3,"seq":5},{"containerView":1,"label":"Monitoring Status","name":"monitoringStatus","listOrder":4,"seq":6},{"containerView":1,"label":"Risk/Topic Category","name":"topicCategory","listOrder":5,"seq":7},{"containerView":1,"label":"Assigned To","name":"assignedTo","listOrder":6,"seq":8},{"containerView":1,"label":"Priority","name":"priority","listOrder":7,"seq":9},{"containerView":1,"label":"Actions","name":"actions","listOrder":8,"seq":10}]
+0
+

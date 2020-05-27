@@ -1,0 +1,11 @@
+[t163]
+FileName1=t163_signal_charts-77adc41f9e1c88551dba910b24381240.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/validated_signal/signal_charts-77adc41f9e1c88551dba910b24381240.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_163.xml
+RequestHeaderFile=t163_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t163_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

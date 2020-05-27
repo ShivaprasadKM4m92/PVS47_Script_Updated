@@ -1,0 +1,11 @@
+[t160]
+FileName1=t160_review-f2586ded5503b40004f22afda42c4971.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/validated_signal/review-f2586ded5503b40004f22afda42c4971.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_160.xml
+RequestHeaderFile=t160_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t160_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

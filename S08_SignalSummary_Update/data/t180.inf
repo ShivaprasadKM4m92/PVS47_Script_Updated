@@ -1,0 +1,11 @@
+[t180]
+FileName1=t180_prev_assessment-77e06d295daa837a7b88f73dfb777681.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/validated_signal/prev_assessment-77e06d295daa837a7b88f73dfb777681.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_180.xml
+RequestHeaderFile=t180_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t180_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t169]
+FileName1=t169_signalHistoryTable-0c39c083359e752e14f0fb791c71bd84.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/signalHistory/signalHistoryTable-0c39c083359e752e14f0fb791c71bd84.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_169.xml
+RequestHeaderFile=t169_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t169_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

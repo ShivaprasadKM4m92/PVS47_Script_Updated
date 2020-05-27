@@ -1,0 +1,11 @@
+[t175]
+FileName1=t175_document-ec4a8acb37368b50cc28951c0859bf1c.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/documentManagement/document-ec4a8acb37368b50cc28951c0859bf1c.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_175.xml
+RequestHeaderFile=t175_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t175_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
