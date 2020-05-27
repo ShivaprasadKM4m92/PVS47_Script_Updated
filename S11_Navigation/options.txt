@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVS\Scripts\S11_Navigation
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvs\scripts\s11_navigation\\logfile.log
+c:\project\pvs\scripts\s11_navigation\\combined_S11_Navigation.c
+c:\project\pvs\scripts\s11_navigation\\pre_cci.c

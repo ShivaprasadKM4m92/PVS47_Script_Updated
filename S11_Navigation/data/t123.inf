@@ -1,0 +1,11 @@
+[t123]
+FileName1=t123_fuelux-f9b4ad7ab3a7ffc6f349ea76f519d981.html
+URL1=http://10.100.22.24:8181/signal/assets/fuelux/fuelux-f9b4ad7ab3a7ffc6f349ea76f519d981.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_123.xml
+RequestHeaderFile=t123_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t123_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

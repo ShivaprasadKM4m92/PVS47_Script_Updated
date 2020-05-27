@@ -1,0 +1,11 @@
+[t191]
+FileName1=t191_deleteModal-6bdd3856fe6074dc751693b38eb0cbf8.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/deleteModal-6bdd3856fe6074dc751693b38eb0cbf8.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_191.xml
+RequestHeaderFile=t191_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t191_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

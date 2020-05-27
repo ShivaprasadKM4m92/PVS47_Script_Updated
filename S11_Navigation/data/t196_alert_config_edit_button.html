@@ -1,0 +1,26 @@
+<div class="hidden-btn btn-group dropdown dataTableHideCellContent" align="center">
+    <a class="btn btn-success btn-xs" href="{{run_url}}">{{run_display}}</a>
+
+    {{#if_eq isView true}}
+    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+        <span class="sr-only">Toggle Dropdown</span>
+    </button>
+
+    <ul class="dropdown-menu dropdown-menu-right" role="menu" style="min-width: 80px !important; font-size: 12px;">
+        <li role="presentation"><a role="menuitem" href="{{view_url}}">{{view_display}}</a></li>
+        {{#if_eq isEdit true}}
+        <li role="presentation"><a role="menuitem" href="{{edit_url}}">{{edit_display}}</a></li>
+        <li role="presentation"><a role="menuitem" href="{{copy_url}}">{{copy_display}}</a></li>
+        <li role="presentation"><a role="menuitem" href="#" data-toggle="modal"
+                                   data-target="#deleteModal"
+                                   data-instancetype="alert"
+                                   data-instanceid="{{obj_id}}"
+                                   data-instancename=""
+                                   data-isevdas="{{isEvdas}}"
+                                   data-isliterature="{{isLiterature}}">{{delete_display}}</a></li>
+        {{/if_eq}}
+
+    </ul>
+    {{/if_eq}}
+</div>

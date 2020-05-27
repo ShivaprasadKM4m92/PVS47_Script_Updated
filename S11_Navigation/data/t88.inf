@@ -1,0 +1,11 @@
+[t88]
+FileName1=t88_jquery.app-9af4130ef9d8c98c078b99d2cddad130.html
+URL1=http://10.100.22.24:8181/signal/assets/app/jquery.app-9af4130ef9d8c98c078b99d2cddad130.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_88.xml
+RequestHeaderFile=t88_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t88_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

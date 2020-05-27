@@ -1,0 +1,11 @@
+[t34]
+FileName1=t34_moment-434aaa1704890766125108c94efbb50c.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/moment/moment-434aaa1704890766125108c94efbb50c.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,76 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=S11_Navigation.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="S11_01_OpenApplication__*delimiter*__S11_02_Login__*delimiter*__S11_03_TriggeredAlertsEVDASReview__*delimiter*__S11_04_TriggeredAlertsAdhocReview__*delimiter*__S11_05_TriggeredAlertsLiteratureReview__*delimiter*__S11_06_FilterOnArticleId__*delimiter*__S11_07_RemoveFilter__*delimiter*__S11_08_SortOnAuthor_Accending__*delimiter*__S11_09_SortOnAuthor_Decending__*delimiter*__S11_09_CheckAbstractView__*delimiter*__S11_11_AlertConfiguration-View Alerts__*delimiter*__S11_12_AlertConfiguration-View Execution Status__*delimiter*__S11_13_AlertConfiguration-View Execution Status Completed__*delimiter*__S11_13_AlertConfiguration-View Execution Status Quantitative configuration__*delimiter*__S11_14_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+S11_01_OpenApplication=
+S11_02_Login=
+S11_03_TriggeredAlertsEVDASReview=
+S11_04_TriggeredAlertsAdhocReview=
+S11_05_TriggeredAlertsLiteratureReview=
+S11_06_FilterOnArticleId=
+S11_07_RemoveFilter=
+S11_08_SortOnAuthor_Accending=
+S11_09_SortOnAuthor_Decending=
+S11_09_CheckAbstractView=
+"S11_11_AlertConfiguration-View Alerts"=
+"S11_12_AlertConfiguration-View Execution Status"=
+"S11_13_AlertConfiguration-View Execution Status Completed"=
+"S11_13_AlertConfiguration-View Execution Status Quantitative configuration"=
+S11_14_Logout=

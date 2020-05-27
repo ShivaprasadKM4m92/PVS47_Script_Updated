@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:16:22 GMT
+ETag: "executionStatus-e35e74007b0b5422a22b611690365bff.css"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: text/css;charset=UTF-8
+Content-Length: 280
+Date: Fri, 22 May 2020 14:06:27 GMT
+

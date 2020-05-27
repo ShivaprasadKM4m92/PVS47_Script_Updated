@@ -1,0 +1,11 @@
+[t130]
+FileName1=t130_websocket.html
+URL1=http://10.100.22.24:8181/signal/stomp/006/tdjhkfo8/websocket
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_130.xml
+RequestHeaderFile=t130_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t130_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

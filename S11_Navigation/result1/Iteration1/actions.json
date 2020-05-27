@@ -1,0 +1,276 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: signal",
+                "infFile": "t1.inf",
+                "time": 1590587761641
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t2.inf",
+                "time": 1590587771359
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: saveDashboardConfig",
+                "infFile": "t16.inf",
+                "time": 1590587789085
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: review",
+                "infFile": "t17.inf",
+                "time": 1590587791508
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: priorities",
+                "infFile": "t18.inf",
+                "time": 1590587793485
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: workflowState",
+                "infFile": "t19.inf",
+                "time": 1590587794116
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: listConfig",
+                "infFile": "t20.inf",
+                "time": 1590587794758
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: index",
+                "infFile": "t21.inf",
+                "time": 1590587798445
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: viewColumnInfo",
+                "infFile": "t22.inf",
+                "time": 1590587800061
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: list",
+                "infFile": "t23.inf",
+                "time": 1590587800673
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: details",
+                "infFile": "t24.inf",
+                "time": 1590587803914
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: commonTagDetails",
+                "infFile": "t25.inf",
+                "time": 1590587805783
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: viewColumnInfo_2",
+                "infFile": "t26.inf",
+                "time": 1590587806399
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: literatureSearchAlertList",
+                "infFile": "t27.inf",
+                "time": 1590587809661
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: literatureSearchAlertList_2",
+                "infFile": "t28.inf",
+                "time": 1590587810907
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: literatureSearchAlertList_3",
+                "infFile": "t29.inf",
+                "time": 1590587811389
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: literatureSearchAlertList_4",
+                "infFile": "t30.inf",
+                "time": 1590587813583
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: literatureSearchAlertList_5",
+                "infFile": "t31.inf",
+                "time": 1590587816108
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: literatureSearchAlertList_6",
+                "infFile": "t32.inf",
+                "time": 1590587818636
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: index_2",
+                "infFile": "t35.inf",
+                "time": 1590587820968
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: configurations",
+                "infFile": "t36.inf",
+                "time": 1590587822863
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: executionStatus",
+                "infFile": "t37.inf",
+                "time": 1590587824624
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: dataTables_en.json",
+                "infFile": "t38.inf",
+                "time": 1590587825645
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Url: executionStatus_2",
+                "infFile": "t39.inf",
+                "time": 1590587826262
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Url: executionStatus_3",
+                "infFile": "t40.inf",
+                "time": 1590587826933
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Url: executionStatus_4",
+                "infFile": "t41.inf",
+                "time": 1590587827510
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: index_3",
+                "infFile": "t42.inf",
+                "time": 1590587828823
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S11_01_OpenApplication",
+                "rawStartTime": 1590587759223,
+                "rawEndTime": 1590587767944,
+                "thinkTime": 0.0,
+                "wastedTime": 0.38376593589782717
+            },
+            {
+                "transactionName": "S11_02_Login",
+                "rawStartTime": 1590587767950,
+                "rawEndTime": 1590587787370,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2771778106689453
+            },
+            {
+                "transactionName": "S11_03_TriggeredAlertsEVDASReview",
+                "rawStartTime": 1590587787375,
+                "rawEndTime": 1590587794796,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08645892143249512
+            },
+            {
+                "transactionName": "S11_04_TriggeredAlertsAdhocReview",
+                "rawStartTime": 1590587794841,
+                "rawEndTime": 1590587800773,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10413885116577149
+            },
+            {
+                "transactionName": "S11_05_TriggeredAlertsLiteratureReview",
+                "rawStartTime": 1590587800778,
+                "rawEndTime": 1590587810239,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10892891883850098
+            },
+            {
+                "transactionName": "S11_06_FilterOnArticleId",
+                "rawStartTime": 1590587810245,
+                "rawEndTime": 1590587811398,
+                "thinkTime": 0.0,
+                "wastedTime": 0.028400182723999025
+            },
+            {
+                "transactionName": "S11_07_RemoveFilter",
+                "rawStartTime": 1590587811403,
+                "rawEndTime": 1590587813594,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03358793258666992
+            },
+            {
+                "transactionName": "S11_08_SortOnAuthor_Accending",
+                "rawStartTime": 1590587813599,
+                "rawEndTime": 1590587816116,
+                "thinkTime": 0.0,
+                "wastedTime": 0.025157690048217775
+            },
+            {
+                "transactionName": "S11_09_SortOnAuthor_Decending",
+                "rawStartTime": 1590587816120,
+                "rawEndTime": 1590587818646,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03731822967529297
+            },
+            {
+                "transactionName": "S11_09_CheckAbstractView",
+                "rawStartTime": 1590587818651,
+                "rawEndTime": 1590587819293,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008323192596435547
+            },
+            {
+                "transactionName": "S11_11_AlertConfiguration-View Alerts",
+                "rawStartTime": 1590587819297,
+                "rawEndTime": 1590587823378,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0768134593963623
+            },
+            {
+                "transactionName": "S11_12_AlertConfiguration-View Execution Status",
+                "rawStartTime": 1590587823385,
+                "rawEndTime": 1590587826361,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03792285919189453
+            },
+            {
+                "transactionName": "S11_13_AlertConfiguration-View Execution Status Completed",
+                "rawStartTime": 1590587826366,
+                "rawEndTime": 1590587826941,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012901067733764649
+            },
+            {
+                "transactionName": "S11_13_AlertConfiguration-View Execution Status Quantitative configuration",
+                "rawStartTime": 1590587826946,
+                "rawEndTime": 1590587827512,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017139434814453126
+            },
+            {
+                "transactionName": "S11_14_Logout",
+                "rawStartTime": 1590587827524,
+                "rawEndTime": 1590587828824,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0070879459381103519
+            }
+        ]
+    }
+]

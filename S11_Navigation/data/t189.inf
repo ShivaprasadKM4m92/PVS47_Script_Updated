@@ -1,0 +1,11 @@
+[t189]
+FileName1=t189_jquery-ui-0ac146552c49411ebf7e65f0b61ae8a0.css
+URL1=http://10.100.22.24:8181/signal/assets/jquery-ui/jquery-ui-0ac146552c49411ebf7e65f0b61ae8a0.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_189.xml
+RequestHeaderFile=t189_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t189_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
