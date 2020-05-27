@@ -1,0 +1,11 @@
+[t183]
+FileName1=t183_7435.json
+URL1=http://10.100.22.24:8181/signal/inboxLog/forUser/7435?_=1590409189989
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_183.xml
+RequestHeaderFile=t183_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t183_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

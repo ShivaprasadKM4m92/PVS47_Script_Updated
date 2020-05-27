@@ -1,0 +1,9 @@
+[t11]
+SnapshotXmlFile=snapshot_11.xml
+FileName1=t11.png
+URL1=http://10.100.22.24:8181/signal/assets/pv-signal-logo-61161afba9a8a8e20ebe65b7f0973c2a.png
+Total=1
+RequestHeaderFile=t11_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t11_ResponseHeader.txt
+ContentType=image/png

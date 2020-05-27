@@ -1,0 +1,11 @@
+HTTP/1.1 101 
+X-Frame-Options: DENY
+X-Application-Context: application:production:7171
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Upgrade: websocket
+Connection: upgrade
+Sec-WebSocket-Accept: KkMBTlJDIRur4p7+1kIt02Au19w=
+Sec-WebSocket-Extensions: permessage-deflate;client_max_window_bits=15
+Date: Mon, 25 May 2020 12:17:40 GMT
+

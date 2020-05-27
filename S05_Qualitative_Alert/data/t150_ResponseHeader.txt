@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:19:24 GMT
+ETag: "plugin/dictionary/polymer-dd87a5cf24b5937b70d0c3c0464d82e3.html"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Content-Length: 25982
+Date: Mon, 25 May 2020 12:17:38 GMT
+

@@ -1,0 +1,11 @@
+[t10]
+FileName1=t10.html
+URL1=https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=tN2ml82IrGouScOnqCwshg%3D%3D
+Total=1
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=t10_RequestBody.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=application/vnd.google.octet-stream-compressible
+SnapshotXmlFile=snapshot_10.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

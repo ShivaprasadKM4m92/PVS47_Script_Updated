@@ -1,0 +1,11 @@
+[t19]
+FileName1=t19_theme_gradient_blue-82b8663def72c9ceff32d61e0b4a5253.css
+URL1=http://10.100.22.24:8181/signal/assets/theme_gradient_blue-82b8663def72c9ceff32d61e0b4a5253.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_19.xml
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t19_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

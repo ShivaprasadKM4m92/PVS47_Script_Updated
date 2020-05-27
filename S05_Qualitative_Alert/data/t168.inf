@@ -1,0 +1,11 @@
+[t168]
+FileName1=t168_executionStatus-8725fcdfa337d82dd022ca3ec2bde5f2.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/configuration/executionStatus-8725fcdfa337d82dd022ca3ec2bde5f2.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_168.xml
+RequestHeaderFile=t168_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t168_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

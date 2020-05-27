@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:19:24 GMT
+ETag: "plugin/dictionary/productDictionary-eeaadfef73b9e8aa3d5bbccd020fbe0e.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 529
+Date: Mon, 25 May 2020 12:17:37 GMT
+

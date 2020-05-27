@@ -1,0 +1,11 @@
+[t154]
+FileName1=t154_column-view-lib-bd7bc6ac60142802df527fb4fdd3a579.html
+URL1=http://10.100.22.24:8181/signal/assets/plugin/dictionary/column-view-lib-bd7bc6ac60142802df527fb4fdd3a579.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_154.xml
+RequestHeaderFile=t154_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t154_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

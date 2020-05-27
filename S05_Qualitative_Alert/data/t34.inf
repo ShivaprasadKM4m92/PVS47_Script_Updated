@@ -1,0 +1,11 @@
+[t34]
+FileName1=t34_jquery-ui.min-b0582f2d27fdc676c34681e0c96aac0c.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/jquery-ui/jquery-ui.min-b0582f2d27fdc676c34681e0c96aac0c.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

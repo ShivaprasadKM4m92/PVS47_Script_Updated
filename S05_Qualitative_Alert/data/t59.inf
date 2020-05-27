@@ -1,0 +1,11 @@
+[t59]
+FileName1=t59_jquery.waypoints.min-4471999ef1b83a94d41d3cebb887c349.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/waypoints/lib/jquery.waypoints.min-4471999ef1b83a94d41d3cebb887c349.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_59.xml
+RequestHeaderFile=t59_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t59_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

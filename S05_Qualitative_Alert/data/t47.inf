@@ -1,0 +1,11 @@
+[t47]
+FileName1=t47_wow.min-237e66d720861f3cc99ee444887b7c32.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/wow/wow.min-237e66d720861f3cc99ee444887b7c32.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_47.xml
+RequestHeaderFile=t47_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t47_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t77]
+FileName1=t77_no-data-to-display-fc44762af3aab44deb8317659be156a6.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/highcharts/modules/no-data-to-display-fc44762af3aab44deb8317659be156a6.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_77.xml
+RequestHeaderFile=t77_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t77_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
