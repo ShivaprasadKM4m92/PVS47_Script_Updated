@@ -1,0 +1,218 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: signal",
+                "infFile": "t1.inf",
+                "time": 1590662524147
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t2.inf",
+                "time": 1590662530913
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: saveDashboardConfig",
+                "infFile": "t17.inf",
+                "time": 1590662544645
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: review",
+                "infFile": "t18.inf",
+                "time": 1590662545964
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: priorities",
+                "infFile": "t19.inf",
+                "time": 1590662547257
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: workflowState",
+                "infFile": "t20.inf",
+                "time": 1590662547790
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: info_2",
+                "infFile": "t21.inf",
+                "time": 1590662548451
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: listConfig",
+                "infFile": "t22.inf",
+                "time": 1590662548997
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: details",
+                "infFile": "t23.inf",
+                "time": 1590662552905
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: 61",
+                "infFile": "t28.inf",
+                "time": 1590662559137
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: caseSeriesDetails",
+                "infFile": "t29.inf",
+                "time": 1590662563096
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: 63",
+                "infFile": "t33.inf",
+                "time": 1590662566594
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: index",
+                "infFile": "t35.inf",
+                "time": 1590662569394
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: details_2",
+                "infFile": "t41.inf",
+                "time": 1590662574521
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: fetchSubGroupsMap_2",
+                "infFile": "t42.inf",
+                "time": 1590662575607
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: commonTagDetails_3",
+                "infFile": "t43.inf",
+                "time": 1590662576256
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: viewColumnInfo_3",
+                "infFile": "t44.inf",
+                "time": 1590662576871
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: info_6",
+                "infFile": "t45.inf",
+                "time": 1590662577427
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Data: 61_2",
+                "infFile": "t46.inf",
+                "time": 1590662579579
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: changeDisposition",
+                "infFile": "t49.inf",
+                "time": 1590662585072
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Submit Data: 61_5",
+                "infFile": "t50.inf",
+                "time": 1590662588481
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: index_2",
+                "infFile": "t52.inf",
+                "time": 1590662590248
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S10_01_OpenApplication",
+                "rawStartTime": 1590662520993,
+                "rawEndTime": 1590662528640,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3388800621032715
+            },
+            {
+                "transactionName": "S10_02_Login",
+                "rawStartTime": 1590662528682,
+                "rawEndTime": 1590662543893,
+                "thinkTime": 0.0,
+                "wastedTime": 0.28087639808654787
+            },
+            {
+                "transactionName": "S10_03_NavigateTriggeredAlertsQuantitativeReview",
+                "rawStartTime": 1590662543909,
+                "rawEndTime": 1590662549022,
+                "thinkTime": 0.0,
+                "wastedTime": 0.051412105560302737
+            },
+            {
+                "transactionName": "S10_04_ClickOnAlertName",
+                "rawStartTime": 1590662549034,
+                "rawEndTime": 1590662559744,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1553347110748291
+            },
+            {
+                "transactionName": "S10_05_ClickOnCaseSeries",
+                "rawStartTime": 1590662559758,
+                "rawEndTime": 1590662566597,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08429813385009766
+            },
+            {
+                "transactionName": "S10_07_ClickonReport",
+                "rawStartTime": 1590662566604,
+                "rawEndTime": 1590662570514,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0374603271484375
+            },
+            {
+                "transactionName": "ClickBack",
+                "rawStartTime": 1590662570519,
+                "rawEndTime": 1590662579594,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09026002883911133
+            },
+            {
+                "transactionName": "S10_11_Export50Cases_Excel",
+                "rawStartTime": 1590662579600,
+                "rawEndTime": 1590662581760,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02439403533935547
+            },
+            {
+                "transactionName": "S10_11_Export50Cases_PDF",
+                "rawStartTime": 1590662581767,
+                "rawEndTime": 1590662583969,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02721858024597168
+            },
+            {
+                "transactionName": "S10_13_Select2CasesandclickonDisposition",
+                "rawStartTime": 1590662583977,
+                "rawEndTime": 1590662588483,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04874062538146973
+            },
+            {
+                "transactionName": "S10_12_Logout",
+                "rawStartTime": 1590662588506,
+                "rawEndTime": 1590662590250,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012087583541870118
+            }
+        ]
+    }
+]
