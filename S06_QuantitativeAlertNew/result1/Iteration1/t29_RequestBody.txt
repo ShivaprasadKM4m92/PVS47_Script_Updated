@@ -1,0 +1,2 @@
+"contains=FLUTAMIDE&dictionaryLevel=3&ref_level=&exact_search=false&imp=false&dataSource=pva&fi"
+"lters=%7B%7D"

@@ -1,0 +1,202 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP26",
+                "stepName": "Url: signal",
+                "infFile": "t1.inf",
+                "time": 1591604788530
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t2.inf",
+                "time": 1591604794236
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Submit Data: saveDashboardConfig",
+                "infFile": "t15.inf",
+                "time": 1591604802260
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Url: create",
+                "infFile": "t16.inf",
+                "time": 1591604810362
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Url: fetchFaersDisabledColumnsIndexes",
+                "infFile": "t18.inf",
+                "time": 1591604811375
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Url: getStringOperators",
+                "infFile": "t19.inf",
+                "time": 1591604811847
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Url: getValuelessOperators",
+                "infFile": "t20.inf",
+                "time": 1591604812341
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: getDateOperators",
+                "infFile": "t21.inf",
+                "time": 1591604813037
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Url: getNumOperators",
+                "infFile": "t22.inf",
+                "time": 1591604813663
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Url: column-view-64c0085c608464f4a6f66e33d985ae27.html_2",
+                "infFile": "t23.inf",
+                "time": 1591604813793
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Url: info_2",
+                "infFile": "t24.inf",
+                "time": 1591604814228
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Url: polymer.html",
+                "infFile": "t25.inf",
+                "time": 1591604814501
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Url: polymer-mini.html",
+                "infFile": "t26.inf",
+                "time": 1591604814756
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Url: polymer-micro.html",
+                "infFile": "t27.inf",
+                "time": 1591604815006
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Submit Data: searchViews",
+                "infFile": "t28.inf",
+                "time": 1591604821662
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Custom Request: getSelectedItem",
+                "infFile": "t29.inf",
+                "time": 1591604822305
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Submit Data: getPreLevelProductParents",
+                "infFile": "t30.inf",
+                "time": 1591604822919
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Submit Data: getPreLevelProductParents_2",
+                "infFile": "t31.inf",
+                "time": 1591604823429
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Submit Data: getPreLevelProductParents_3",
+                "infFile": "t32.inf",
+                "time": 1591604823872
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Url: fetchAllowedUsers",
+                "infFile": "t33.inf",
+                "time": 1591604824621
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Submit Data: run",
+                "infFile": "t34.inf",
+                "time": 1591604831140
+            },
+            {
+                "stepId": "STEP47",
+                "stepName": "Url: info",
+                "infFile": "t35.inf",
+                "time": 1591604831888
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Url: executionStatus",
+                "infFile": "t36.inf",
+                "time": 1591604832451
+            },
+            {
+                "stepId": "STEP49",
+                "stepName": "Url: index",
+                "infFile": "t37.inf",
+                "time": 1591604837448
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S06_01_OpenApplication",
+                "rawStartTime": 1591604786523,
+                "rawEndTime": 1591604788636,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01301121711730957
+            },
+            {
+                "transactionName": "S06_02_Login",
+                "rawStartTime": 1591604791640,
+                "rawEndTime": 1591604798443,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07014966011047363
+            },
+            {
+                "transactionName": "S06_03_NavigateQuantitativeAlert",
+                "rawStartTime": 1591604801449,
+                "rawEndTime": 1591604815012,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2896127700805664
+            },
+            {
+                "transactionName": "ClickProducts",
+                "rawStartTime": 1591604818017,
+                "rawEndTime": 1591604818019,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "SearchProducts",
+                "rawStartTime": 1591604821024,
+                "rawEndTime": 1591604824623,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09168839454650879
+            },
+            {
+                "transactionName": "S06_04_CreateQuantitativeAlert",
+                "rawStartTime": 1591604827629,
+                "rawEndTime": 1591604832482,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04246950149536133
+            },
+            {
+                "transactionName": "S06_05_Logout",
+                "rawStartTime": 1591604835486,
+                "rawEndTime": 1591604837450,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017930269241333009
+            }
+        ]
+    }
+]

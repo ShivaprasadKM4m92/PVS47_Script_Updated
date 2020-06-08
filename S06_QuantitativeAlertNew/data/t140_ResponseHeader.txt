@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Last-Modified: Thu, 21 May 2020 08:19:20 GMT
+ETag: "plugin/dictionary/studyDrugs-9650caca7b2eaad47de57af7bbefe066.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 348
+Date: Mon, 25 May 2020 13:59:18 GMT
+

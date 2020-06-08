@@ -1,0 +1,11 @@
+[t128]
+FileName1=t128_configurationCommon-f8f219758a6f70b184f12e4897ae1571.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/configuration/configurationCommon-f8f219758a6f70b184f12e4897ae1571.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_128.xml
+RequestHeaderFile=t128_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t128_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

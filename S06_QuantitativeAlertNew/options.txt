@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Shiva Prasad KM\Documents\GitHub\PVS47_Script_Updated\S06_Quantitative_Alert
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\shiva prasad km\documents\github\pvs47_script_updated\s06_quantitative_alert\\logfile.log
+c:\users\shiva prasad km\documents\github\pvs47_script_updated\s06_quantitative_alert\\combined_S06_Quantitative_Alert.c
+c:\users\shiva prasad km\documents\github\pvs47_script_updated\s06_quantitative_alert\\pre_cci.c

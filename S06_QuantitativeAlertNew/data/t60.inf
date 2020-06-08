@@ -1,0 +1,11 @@
+[t60]
+FileName1=t60_bootstrap-uploader-265e387a3ec58973abdfae04a79862b2.html
+URL1=http://10.100.22.24:8181/signal/assets/vendorUi/bootstrapUploader/bootstrap-uploader-265e387a3ec58973abdfae04a79862b2.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_60.xml
+RequestHeaderFile=t60_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t60_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

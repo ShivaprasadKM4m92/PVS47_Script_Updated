@@ -1,0 +1,36 @@
+Start auto log messages stack - Iteration 2.
+Action.c(1362): web_url("actionList") started  	[MsgId: MMSG-26355]
+Action.c(1362): Registering web_url("actionList") was successful  	[MsgId: MMSG-26390]
+Action.c(1390): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(1390): Connection to 10.100.22.24:8181 closed after being inactive for 80 seconds, exceeding the "HTTP Keep-Alive timeout" Runtime Setting (60 seconds). URL="http://10.100.22.24:8181/signal/dashboard/getProductByStatus?type=Single%20Case%20Alert&_=1590415123510"  	[MsgId: MMSG-27647]
+Action.c(1390): Connection to 10.100.22.24:8181 closed after being inactive for 105 seconds, exceeding the "HTTP Keep-Alive timeout" Runtime Setting (60 seconds). URL="http://10.100.22.24:8181/signal/dashboard/alertByDueDate?_=1590415123509"  	[MsgId: MMSG-27647]
+Action.c(1201): Error -27792: Failed to connect to server "10.100.22.24:8181": [10060] Connection timed out   [issued at Action.c(1390)]  	[MsgId: MERR-27792]
+End auto log messages stack.
+
+
+Start auto log messages stack - Iteration 3.
+Action.c(51): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(60): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(60): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(64): web_url("signal") started  	[MsgId: MMSG-26355]
+Action.c(64): Connection to 10.100.22.24:8181 closed after being inactive for 79 seconds, exceeding the "HTTP Keep-Alive timeout" Runtime Setting (60 seconds). URL="http://10.100.22.24:8181/signal"  	[MsgId: MMSG-27647]
+Action.c(64): Redirecting "http://10.100.22.24:8181/signal" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(64): To location "http://10.100.22.24:8181/signal/"  	[MsgId: MMSG-26693]
+Action.c(64): Error -26377: No match found for the requested parameter "CsrfTokenId". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 78348 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+Action.c(64): Error -26366: "Text=Login" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.
+
+
+Start auto log messages stack - Iteration 4.
+Action.c(51): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(60): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(60): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(64): web_url("signal") started  	[MsgId: MMSG-26355]
+Action.c(64): Connection to 10.100.22.24:8181 closed after being inactive for 62 seconds, exceeding the "HTTP Keep-Alive timeout" Runtime Setting (60 seconds). URL="http://10.100.22.24:8181/signal"  	[MsgId: MMSG-27647]
+Action.c(64): Redirecting "http://10.100.22.24:8181/signal" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(64): To location "http://10.100.22.24:8181/signal/"  	[MsgId: MMSG-26693]
+Action.c(64): Error -26377: No match found for the requested parameter "CsrfTokenId". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 78348 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+Action.c(64): Error -26366: "Text=Login" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.
+
+

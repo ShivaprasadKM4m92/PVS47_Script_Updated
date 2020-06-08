@@ -1,0 +1,2 @@
+"contains=DALOTUZUMAB&dictionaryLevel=3&ref_level=&exact_search=false&imp=false&dataSource=pva&"
+"filters=%7B%7D"

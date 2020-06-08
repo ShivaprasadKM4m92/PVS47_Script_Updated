@@ -1,0 +1,11 @@
+[t126]
+FileName1=t126_groups-ff12d6707943fcdbc2cff4f67b040005.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/groups-ff12d6707943fcdbc2cff4f67b040005.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_126.xml
+RequestHeaderFile=t126_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t126_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

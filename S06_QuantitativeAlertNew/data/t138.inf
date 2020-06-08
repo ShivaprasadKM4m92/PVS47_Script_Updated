@@ -1,0 +1,11 @@
+[t138]
+FileName1=t138_productDictionary-eeaadfef73b9e8aa3d5bbccd020fbe0e.html
+URL1=http://10.100.22.24:8181/signal/assets/plugin/dictionary/productDictionary-eeaadfef73b9e8aa3d5bbccd020fbe0e.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_138.xml
+RequestHeaderFile=t138_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t138_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
