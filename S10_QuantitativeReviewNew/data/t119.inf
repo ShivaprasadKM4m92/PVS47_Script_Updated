@@ -1,0 +1,11 @@
+[t119]
+FileName1=t119_deliveryOption-7f47fbed88efc00747809850e2dc4aa4.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/configuration/deliveryOption-7f47fbed88efc00747809850e2dc4aa4.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_119.xml
+RequestHeaderFile=t119_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t119_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

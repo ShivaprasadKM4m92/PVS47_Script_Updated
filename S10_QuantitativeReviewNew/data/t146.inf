@@ -1,0 +1,11 @@
+[t146]
+FileName1=t146_productEventHistoryTable-e9d8010929d435ee34f500c4b9421495.html
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/productEventHistory/productEventHistoryTable-e9d8010929d435ee34f500c4b9421495.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_146.xml
+RequestHeaderFile=t146_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t146_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

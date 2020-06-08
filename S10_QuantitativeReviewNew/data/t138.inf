@@ -1,0 +1,11 @@
+[t138]
+FileName1=t138_pvs_list-642eea288b57d537ccfdff6c8e0e7c6b.css
+URL1=http://10.100.22.24:8181/signal/assets/app/pvs/pvs_list-642eea288b57d537ccfdff6c8e0e7c6b.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_138.xml
+RequestHeaderFile=t138_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t138_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

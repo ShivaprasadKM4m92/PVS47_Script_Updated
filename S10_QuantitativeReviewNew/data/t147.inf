@@ -1,0 +1,11 @@
+[t147]
+FileName1=t147_backbone-fb26971962c1315514c8ede192bc0252.html
+URL1=http://10.100.22.24:8181/signal/assets/backbone/backbone-fb26971962c1315514c8ede192bc0252.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_147.xml
+RequestHeaderFile=t147_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t147_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
