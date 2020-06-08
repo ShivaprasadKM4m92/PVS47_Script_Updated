@@ -1,0 +1,10 @@
+GET /signal/assets/vendorUi/datatables/dataTables.bootstrap-93e0b2f3576484b422f6e4a29b3e6037.js HTTP/1.1
+Host: 10.100.22.24:8181
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+Accept: */*
+Referer: http://10.100.22.24:8181/signal/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=49f5122f-24c0-441f-9737-163630543481
+

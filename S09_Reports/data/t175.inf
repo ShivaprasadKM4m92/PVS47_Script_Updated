@@ -1,0 +1,11 @@
+[t175]
+FileName1=t175_history.json
+URL1=http://10.100.22.24:8181/signal/report/history?_=1591617348411
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_175.xml
+RequestHeaderFile=t175_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t175_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

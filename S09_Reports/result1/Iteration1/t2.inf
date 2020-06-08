@@ -1,0 +1,13 @@
+[t2]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/html
+StepName=Url: signal
+Total=1
+FileName1=t2.html
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=signal
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1591625422121
+URL1=http://10.100.22.24:8181/signal/login/auth

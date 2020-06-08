@@ -1,0 +1,2 @@
+"contains=PENICILLAMINE+Capsule&dictionaryLevel=3&delimiter=%3B&ref_level=&exact_search=false&i"
+"mp=false&dataSource=pva&filters=%7B%7D"

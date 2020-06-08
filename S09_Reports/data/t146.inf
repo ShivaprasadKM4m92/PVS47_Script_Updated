@@ -1,0 +1,11 @@
+[t146]
+FileName1=t146.json
+URL1=http://10.100.22.24:8181/signal/productDictionary/getSelectedItem?productId=100137&dataSource=pva&dictionaryLevel=3&currentLang=en
+Total=1
+RequestHeaderFile=t146_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t146_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_146.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

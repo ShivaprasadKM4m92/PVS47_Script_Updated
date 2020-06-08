@@ -1,0 +1,735 @@
+var signal = signal || {};
+
+signal.reportHistory = (function () {
+
+    var reportHistoryTable = null;
+
+    var init_report_history_table = function (url) {
+        if (typeof reportHistoryTable != "undefined" && reportHistoryTable != null) {
+            refresh_report_history_table();
+        } else {
+            reportHistoryTable = $('#reportsHistory').DataTable({
+                "sPaginationType": "bootstrap",
+                "ajax": {
+                    "url": url,
+                    "dataSrc": ""
+                },
+                "aaSorting": [[5, "desc"]],
+                "bLengthChange": true,
+                "iDisplayLength": 50,
+                "aLengthMenu": [[50, 100, 200, 1000, -1], [50, 100, 200, 1000, "All"]],
+                "fnDrawCallback": function (oSettings) {
+                    $(".downloadReport li").click(function () {
+                        var reportId = $(this).parent().data("report-id");
+                        var outputType = $(this).data("type");
+                        var url = downloadReportUrl + "?id=" + reportId + "&type=" + outputType
+                        window.location.href = url;
+                    })
+                },
+                "aoColumns": [
+                    {
+                        "mData": "reportName",
+                        'className': 'dt-center'
+                    },
+                    {
+                        "mData": "dataSource",
+                        'className': 'dt-center'
+                    },
+                    {
+                        "mData": "productName",
+                        'className': 'dt-center'
+                    },
+                    {
+                        "mData": "reportType",
+                        'className': 'dt-center'
+                    },
+                    {
+                        "mData": "summaryDateRange",
+                        'className': 'dt-center'
+                    },
+                    {
+                        "mData": "generatedOn",
+                        'className': 'dt-center',
+                        "width": "15%"
+                    },
+                    {
+                        "width": "5%",
+                        "mRender": function (data, type, row) {
+                            if (row.reportType !== "ICSRs by Case Characteristics") {
+                                if (row.reportGenerated) {
+                                    return '<li class="dropdown downloadReport" style="list-style: none;">' +
+                                        '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Export to"><i class="mdi mdi-export blue-1 font-22" aria-hidden="true"></i> <span class="caret hidden"></span></a>' +
+                                        '<ul class="dropdown-menu dropdown-menu-right" style="min-width: 70px" data-report-id="' + row.downloadId + '">' +
+                                        '<li data-type="PDF"><a href="#"><img src="/signal/assets/pdf-icon.jpg" class="pdf-icon" height="16" width="16">Save as PDF</a></li>' +
+                                        '<li data-type="XLSX"><a href="#"><img src="/signal/assets/excel.gif" class="pdf-icon" height="16" width="16">Save as Excel</a></li>' +
+                                        '<li data-type="DOCX"><a href="#"><img src="/signal/assets/word-icon.png" class="pdf-icon" height="16" width="16">Save as Word</a></li>' +
+                                        '</ul>' +
+                                        '</li>'
+                                } else {
+                                    return '<i class="fa fa-spinner fa-spin fa-lg es-generating popoverMessage" data-content="Generating" ></i>'
+                                }
+                            } else {
+                                if (row.reportGenerated) {
+                                    return '<a href="' + viewICSRReportUrl + '?reportHistoryId=' + row.downloadId + '" role="button" aria-haspopup="true" aria-expanded="false" target="_blank" title="Show report"><i class="mdi mdi-file-chart blue-1 font-20"></i></a>'
+                                } else {
+                                    return '<i class="fa fa-spinner fa-spin fa-lg es-generating popoverMessage" data-content="Generating" ></i>'
+                                }
+                            }
+                        }
+                    }
+                ],
+                columnDefs: [{
+                    "targets": '_all',
+                    "render": $.fn.dataTable.render.text()
+                }]
+            });
+        }
+    };
+
+    var clear_report_history_table = function () {
+        if (typeof reportHistoryTable != "undefined" && reportHistoryTable != null) {
+            reportHistoryTable.clear().draw();
+        }
+    };
+
+    var refresh_report_history_table = function () {
+        if (typeof reportHistoryTable != "undefined" && reportHistoryTable != null) {
+            $("#report-history-fetch").show();
+            clear_report_history_table();
+            reportHistoryTable.ajax.reload(function(){
+                $("#report-history-fetch").hide();
+            });
+        }
+    };
+
+    return {
+        init_report_history_table: init_report_history_table,
+        clear_report_history_table: clear_report_history_table,
+        refresh_report_history_table: refresh_report_history_table
+    }
+
+})();
+
+var signal = signal || {};
+
+// a convenience function for parsing string namespaces and
+// automatically generating nested namespaces
+function extend( ns, ns_string ) {
+    var parts = ns_string.split('.'),
+        parent = ns,
+        pl, i;
+    if (parts[0] == "signal") {
+        parts = parts.slice(1);
+    }
+    pl = parts.length;
+    for (i = 0; i < pl; i++) {
+        //create a property if it doesnt exist
+        if (typeof parent[parts[i]] == 'undefined') {
+            parent[parts[i]] = {};
+        }
+        parent = parent[parts[i]];
+    }
+    return parent;
+}
+
+//Prototype methods
+Date.prototype.addDays = function(days) {
+    var date = new Date(this.valueOf());
+    date.setDate(date.getDate() + days);
+    return date;
+};
+
+Array.prototype.remove = function (value) {
+    return this.filter(function(f){f != value});
+};
+
+SCA_WORKFLOW_STATUS_ENUM = { NEW: 'New',
+    ASSOCIATE_REVIEWED: 'AssociateReviewed',
+    PHYSICIAN_REVIEWED: 'PhysicianReviewed',
+    REQUIRED_EVALUATION: 'RequiredEvaluation',
+    CONTINUED_MONITORING: 'ContinuedMonitoring'
+};
+
+SCA_DISPOSITION_ENUM = {
+    VALIDATED_SIGNAL : 'ValidatedSignal',
+    VALIDATED_NON_CONFIRMED_SIGNAL : 'ValidatedNonConfirmedSignal',
+    VALIDATED_UNDER_INVESTIGATION : 'ValidatedUnderInvestigation',
+    COMMUNICATED_SIGNAL : 'CommunicatedSignal',
+    NON_VALID: 'NonValid'
+};
+
+SCA_PRIORITY_ENUM = {
+    HIGH: "High",
+    MEDIUM: "Medium",
+    LOW: "LOW"
+};
+
+DATE_FMT_TZ = "YYYY-MM-DD";
+
+signal.utils = (function() {
+
+    var stacked = function(topValue, bottomValue) {
+        var topComp = "";
+        var bottomComp = "";
+
+        if(_.isFunction(topValue)) {
+            topComp = topValue()
+        } else {
+            topComp = '<div class="stacked-cell-center-top">' + topValue + '</div>'
+        }
+
+        if (_.isFunction(bottomValue)) {
+            bottomComp = bottomValue()
+        } else {
+            bottomComp = '<div class="stacked-cell-center-bottom">' + bottomValue + '</div>'
+        }
+
+        return topComp + bottomComp
+    };
+
+    // And this is the definition of the custom function ​
+    var render = function(tmpl_name, tmpl_data) {
+
+        if ( !render.tmpl_cache ) {
+
+
+
+            render.tmpl_cache = {};
+        }
+        if (!render.tmpl_cache[tmpl_name]) {
+            var tmpl_dir = '/signal/assets/app/pvs/hbs-templates';
+            var tmpl_url = tmpl_dir + '/' + tmpl_name + '.hbs';
+
+            var tmpl_string = "";
+            $.ajax({
+                url: tmpl_url,
+                method: 'GET',
+                async: false,
+                success: function(data) {
+                    tmpl_string = data
+                }
+            });
+
+            render.tmpl_cache[tmpl_name] = Handlebars.compile(tmpl_string);
+        }
+
+        return render.tmpl_cache[tmpl_name](tmpl_data)
+    };
+
+    var hbs_partial = function(tmpl_name) {
+        if (!hbs_partial.tmpl_cache) {
+            hbs_partial.tmpl_cache = {}
+        }
+
+        if (!hbs_partial.tmpl_cache[tmpl_name]) {
+             var tmpl_dir = '/signal/assets/app/pvs/hbs-templates';
+            var tmpl_url = tmpl_dir + '/' + tmpl_name + '.hbs';
+
+            var tmpl_string = "";
+            $.ajax({
+                url: tmpl_url,
+                method: 'GET',
+                async: false,
+                success: function(data) {
+                    tmpl_string = data
+                }
+            });
+
+            hbs_partial.tmpl_cache[tmpl_name] = tmpl_string
+        }
+
+        return hbs_partial.tmpl_cache[tmpl_name]
+    };
+
+    var composeUrl = function(controller, action, params) {
+        var url = "/signal/" + controller + "/" + action + (_.isNull(params) ? '' : '?' + composeParams(params));
+
+        return url
+    };
+
+    //TODO : Need to change this to handlebar form, Will be done later
+    var postUrl = function (path, params, newWindow) {
+
+        const form = document.createElement('form');
+        form.method = "post";
+        form.action = path;
+        form.enctype = "application/x-www-form-urlencoded";
+        if (newWindow) form.target = "_blank";
+
+        var token = $("meta[name='_csrf']").attr("content");
+        var parameter = $("meta[name='_csrf_parameter']").attr("content");
+        params[parameter] = token;
+        for (let key in params) {
+            if (params.hasOwnProperty(key)) {
+                const hiddenField = document.createElement('input');
+                hiddenField.type = 'hidden';
+                hiddenField.name = key;
+                hiddenField.value = params[key];
+                form.appendChild(hiddenField);
+            }
+        }
+        document.body.appendChild(form);
+        form.submit();
+    }
+
+    var composeParams = function(o) {
+        return _.map(_.pairs(o), function(p){return p.join('=')} ).join('&')
+    };
+
+    var capitalIt = function(s) {
+        return s && s[0].toUpperCase() + s.slice(1);
+    };
+
+    var breakIt = function(s) {
+        return s ? s.split(/(?=[A-Z])/).join(' ') : s
+    };
+
+    var enable_load_button = function(ele, enabled) {
+        return function(evt) {
+            var targetEle = ele.find('.glyphicon');
+            if (enabled) {
+                $(targetEle).addClass('refresh-animate');
+            } else {
+                $(targetEle).removeClass('refresh-animate');
+            }
+        }
+    };
+    var setInLocalStorage = function(prop, data) {
+        localStorage.setItem(prop, data);
+    };
+
+    var getFromLocalStorage = function(prop) {
+        return localStorage.getItem(prop);
+    };
+
+    var setJSONInLocalStorage = function(prop, data) {
+        localStorage.setItem(prop, JSON.stringify(data));
+    };
+
+    var getJSONFromLocalStorage = function (prop) {
+        return JSON.parse(localStorage.getItem(prop));
+    };
+
+    var localStorageUtil = {
+        setProp : setInLocalStorage,
+        getProp : getFromLocalStorage,
+        setJSON : setJSONInLocalStorage,
+        getJSON : getJSONFromLocalStorage
+    };
+
+    var getQueryString = function() {
+        var key = false, res = {}, itm = null;
+        // get the query string without the ?
+        var qs = location.search.substring(1);
+        // check for the key as an argument
+        if (arguments.length > 0 && arguments[0].length > 1)
+            key = arguments[0];
+        // make a regex pattern to grab key/value
+        var pattern = /([^&=]+)=([^&]*)/g;
+        // loop the items in the query string, either
+        // find a match to the argument, or build an object
+        // with key/value pairs
+        while (itm = pattern.exec(qs)) {
+            if (key !== false && decodeURIComponent(itm[1]) === key)
+                return decodeURIComponent(itm[2]);
+            else if (key === false)
+                res[decodeURIComponent(itm[1])] = decodeURIComponent(itm[2]);
+        }
+
+        return key === false ? res : null;
+    };
+
+    return {
+        render : render,
+        stacked: stacked,
+        composeUrl: composeUrl,
+        postUrl: postUrl,
+        composeParams: composeParams,
+        capitalIt: capitalIt,
+        breakIt: breakIt,
+        hbs_partial: hbs_partial,
+        enable_load_button: enable_load_button,
+        localStorageUtil: localStorageUtil,
+        getQueryString: getQueryString
+    }
+})();
+
+
+
+Handlebars.registerHelper('i18n',
+    function(str){
+        return ( (typeof i18n) !== 'undefined' ? str : str)
+    }
+);
+
+Handlebars.registerHelper('select', function(name, selectedValue, options, disp_field, value_field) {
+    var out = "<select class='form-control selectBox' id=\'" + name + "\' name=" + name + ">\n";
+    _.each(options, function(v) {
+        out += "<option value='" + v[value_field] + "'" +
+            (v[value_field] == selectedValue[value_field] ? " selected " : "") + " >" +
+            escapeHTML(v[disp_field]) + "</option>\n"
+    });
+    out += "</select>";
+
+    return new Handlebars.SafeString(out)
+});
+
+Handlebars.registerPartial('date_picker_template', signal.utils.hbs_partial('date_picker_template'));
+
+//Handlebar helper to imitate the if conditions
+Handlebars.registerHelper('if_eq', function(a, b, opts) {
+    if (a == b) {
+        return opts.fn(this);
+    }
+});
+
+//Handlebar helper to imitate the if..else conditions
+Handlebars.registerHelper('if_else_eq', function(a, b, opts) {
+    if (a == b) {
+        return opts.fn(this);
+    } else {
+        return opts.inverse(this);
+    }
+});
+
+Handlebars.registerHelper('if_tag_exist', function(key, value,tags, opts) {
+    if(value.tagText == tags[key-1].tagText && value.subTagText!=null && value.subTagText != tags[key-1].subTagText){
+        return opts.fn(this);
+    } else{
+        return opts.inverse(this);
+    }
+});
+
+Handlebars.registerHelper('if_else_neq', function(a, b, opts) {
+    if (a != b) {
+        return opts.fn(this);
+    } else {
+        return opts.inverse(this);
+    }
+});
+
+//= require app/pvs/report/report_history
+//= require app/pvs/common/rx_common
+//= require app/pvs/common/rx_handlebar_ext.js
+
+var signal = signal || {};
+
+signal.graph = (function () {
+
+    var bindReportScreenEvents = function () {
+
+        $("#reportType").on('change', function () {
+            $('.graphReport').addClass('hide');
+            $(".zoom").hide();
+            var reportType = $(this).val();
+            if (reportType === 'Memo Reports') {
+                $("#memo-report-name").removeClass('hide');
+            } else {
+                $("#memo-report-name").addClass('hide');
+            }
+        });
+
+        $(".generate-graph-report").click(function () {
+
+            var data = {};
+            if ($('input[name=optradio]:checked').val() === "group") {
+                data.productGroupIds = $("#productGroups").val();
+            } else {
+                data.productSelection = $("#productSelection").val();
+            }
+
+            data.reportType = $("#reportType").val();
+            data.dataSource = $("#dataSource").val();
+            data.reportName = $("#reportName").val();
+            data.socList = [];
+            data.socListName = [];
+            $('#socListForCasesByReactionGroup :checked').each(function () {
+                data.socList.push($(this).val());
+                data.socListName.push($(this).next().html());
+            });
+            data = getDateRangeData(data);
+
+            var url = data.reportType === "ICSR_BY_CASE_CHARACTERISTICS" ? fetchICSRsReportUrl : requestReportRestUrl;
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                dataType: "json",
+                data: data,
+                beforeSend: function () {
+                    $("#report-generating").removeClass('hide');
+                },
+                success: function (response) {
+                    if (data.reportType === "ICSR_BY_CASE_CHARACTERISTICS") {
+                        showGraph(response);
+                        $(".zoom").show();
+                        $("#reportHistoryId").val(response["reportHistoryId"])
+                    } else {
+                        showMessage(response.message, 'success');
+                        $(".zoom").hide();
+                        $("#reportHistoryId").val("");
+                    }
+                },
+                error: function (err) {
+                    $("#notification").html(err.responseText);
+                },
+                complete: function () {
+                    $("#report-generating").addClass('hide');
+                }
+            });
+        });
+
+        $("#refreshCasesByReactionGroup").click(function () {
+            var data = {};
+            if ($('input[name=optradio]:checked').val() === "group") {
+                data.productGroupIds = $("#productGroups").val();
+            } else {
+                data.productSelection = $("#productSelection").val();
+            }
+
+            data.reportType = $("#reportType").val();
+            data.dataSource = $("#dataSource").val();
+            data.reportName = $("#reportName").val();
+            data.socList = [];
+            $('#socListForCasesByReactionGroup :checked').each(function () {
+                data.socList.push($(this).val());
+            });
+            data = getDateRangeData(data);
+            if (data.socList.length > 0) {
+                $.ajax({
+                    type: "POST",
+                    url: fetchReactionGroupReportUrl,
+                    dataType: "json",
+                    data: data,
+                    beforeSend: function () {
+                        $("#refreshCasesByReactionGroup").addClass("fa-spin");
+                    }, success: function (response) {
+                        signal.graphReport.prepareReactionGroupChart(response['reactionGroup']);
+                        $("#refreshCasesByReactionGroup").removeClass("fa-spin");
+                    },
+                    error: function (err) {
+                        $("#notification").html(err.responseText);
+                        $("#refreshCasesByReactionGroup").removeClass("fa-spin");
+                    }
+                });
+            }
+        });
+
+        $("#refreshCasesByReaction").click(function () {
+            var data = {};
+            if ($('input[name=optradio]:checked').val() === "group") {
+                data.productGroupIds = $("#productGroups").val();
+            } else {
+                data.productSelection = $("#productSelection").val();
+            }
+
+            data.reportType = $("#reportType").val();
+            data.dataSource = $("#dataSource").val();
+            data.reportName = $("#reportName").val();
+            data.selectedSOCIdForReaction = $("#groups-for-reaction").val();
+            data.ptList = [];
+            $('#socListForCasesByReaction :checked').each(function () {
+                data.ptList.push($(this).val());
+            });
+            data = getDateRangeData(data);
+            if (data.ptList.length > 0) {
+                $.ajax({
+                    type: "POST",
+                    url: fetchReactionReportUrl,
+                    dataType: "json",
+                    data: data,
+                    beforeSend: function () {
+                        $("#refreshCasesByReaction").addClass("fa-spin");
+                    }, success: function (response) {
+                        signal.graphReport.prepareReactionChart(response['reaction']);
+                        $("#refreshCasesByReaction").removeClass("fa-spin");
+                    },
+                    error: function (err) {
+                        $("#notification").html(err.responseText);
+                        $("#refreshCasesByReaction").removeClass("fa-spin");
+                    }
+                });
+            }
+        });
+
+        $("#groups-for-reaction").change(function () {
+            var soc = $(this).val();
+            $(".reactionRowLabel").html("Refreshing Reactions...");
+            $(".reactionRow").html('');
+            $.ajax({
+                url: "getPTsFromSoc",
+                data: {
+                    soc: soc
+                },
+                success: function (result) {
+                    $(".reactionRowLabel").html("Reactions");
+                    var pt_list_content = signal.utils.render('pt_list', result);
+                    $(".reactionRow").html(pt_list_content);
+                },
+                error: function () {
+                }
+            });
+        });
+
+        $("#saveICSRs").click(function () {
+            var data = {};
+            if (!$("#refreshCasesByReactionGroup").hasClass("fa-spin") && !$("#refreshCasesByReaction").hasClass("fa-spin")) {
+                if ($('input[name=optradio]:checked').val() === "group") {
+                    data.productGroupIds = $("#productGroups").val();
+                } else {
+                    data.productSelection = $("#productSelection").val();
+                }
+                data.selectedSOCForReaction = $("#groups-for-reaction :selected").text();
+                data.selectedSOCIdForReaction = $("#groups-for-reaction").val();
+                data.ptList = [];
+                data.ptListName = [];
+                $('#socListForCasesByReaction :checked').each(function () {
+                    data.ptList.push($(this).val());
+                    data.ptListName.push($(this).next().html());
+                });
+                data.socList = [];
+                data.socListName = [];
+                $('#socListForCasesByReactionGroup :checked').each(function () {
+                    data.socList.push($(this).val());
+                    data.socListName.push($(this).next().html());
+                });
+                data.reportHistory = $("#reportHistoryId").val();
+                $('a[href="/signal/report/view?reportHistoryId=' + data.reportHistory + '"]').parent().html('<i class="fa fa-spinner fa-spin fa-lg es-generating popoverMessage" data-content="Generating"></i>');
+                $.ajax({
+                    type: "POST",
+                    url: saveICSRsReportHistoryUrl,
+                    dataType: "json",
+                    data: data,
+                    success: function (response) {
+                        showMessage(response.message, 'success');
+                    },
+                    error: function (err) {
+                        $("#notification").html(err.responseText);
+                    }
+                });
+            }
+        });
+
+        $("#socListForCasesByReactionGroup INPUT[type='checkbox']").change(function () {
+            if ($("#socListForCasesByReactionGroup :checked").size() > 0) {
+                $("#refreshCasesByReactionGroup").removeClass("fa-disabled");
+            } else {
+                $("#refreshCasesByReactionGroup").addClass("fa-disabled");
+            }
+        });
+        $("#deselectAllReactionGroups").click(function () {
+            $('#socListForCasesByReactionGroup INPUT[type="checkbox"]').each(function () {
+                $(this).prop('checked', false)
+            });
+            $("#refreshCasesByReactionGroup").addClass("fa-disabled");
+        });
+
+        $("#selectAllReactionGroups").click(function () {
+            $('#socListForCasesByReactionGroup INPUT[type="checkbox"]').each(function () {
+                $(this).prop('checked', true)
+            });
+            $("#refreshCasesByReactionGroup").removeClass("fa-disabled");
+        });
+
+
+        $("#socListForCasesByReaction INPUT[type='checkbox']").change(function () {
+            if ($("#socListForCasesByReaction :checked").size() > 0) {
+                $("#refreshCasesByReaction").removeClass("fa-disabled");
+            } else {
+                $("#refreshCasesByReaction").addClass("fa-disabled");
+            }
+        });
+        $("#deselectAllReactions").click(function () {
+            $('#socListForCasesByReaction INPUT[type="checkbox"]').each(function () {
+                $(this).prop('checked', false)
+            });
+            $("#refreshCasesByReaction").addClass("fa-disabled");
+        });
+        $("#selectAllReactions").click(function () {
+            $('#socListForCasesByReaction INPUT[type="checkbox"]').each(function () {
+                $(this).prop('checked', true)
+            });
+            $("#refreshCasesByReaction").removeClass("fa-disabled");
+        });
+
+        $("#reportHistoryTab").click(function () {
+            $("#notification").html("");
+            signal.reportHistory.refresh_report_history_table();
+        });
+        bindDateRangeDates();
+    };
+
+    var bindDateRangeDates = function () {
+
+        var from = null;
+        var to = null;
+        $('#datePickerFromDiv').datepicker({
+            allowPastDates: true,
+            formatDate: function (date) {
+              return moment(date).format(DATE_DISPLAY);
+            }
+        }).on('changed.fu.datepicker', function (evt, date) {
+            from = date;
+        }).click(function (evt) {
+            from = $('#datePickerFromDiv').datepicker('getDate');
+        });
+
+        $('#datePickerToDiv').datepicker({
+            allowPastDates: true,
+            formatDate: function (date) {
+               return moment(date).format(DATE_DISPLAY);
+            }
+        }).on('changed.fu.datepicker', function (evt, date) {
+            to = date;
+        }).click(function () {
+            to = $('#datePickerToDiv').datepicker('getDate');
+        });
+
+    };
+
+    var showMessage = function (message, type) {
+        var data = {
+            notification: {
+                type: type,
+                message: message
+            }
+        };
+        var data_content = signal.utils.render('notifications', data);
+        $("#notification").html(data_content);
+        signal.reportHistory.refresh_report_history_table();
+    };
+
+    var getDateRangeData = function (obj) {
+        var dateRangeEnumVal = $("#dateRangeEnum").val();
+        if (dateRangeEnumVal === 'CUSTOM') {
+            obj.startDate = $("#dateRangeStart").val();
+            obj.endDate = $("#dateRangeEnd").val();
+            obj.dateRangeType = dateRangeEnumVal;
+        } else if (dateRangeEnumVal === 'CUMULATIVE') {
+            obj.dateRangeType = dateRangeEnumVal
+        } else {
+            obj.dateRangeType = dateRangeEnumVal;
+            obj.relativeValue = $("#relativeDateRangeValue").val()
+        }
+        return obj;
+    };
+
+    var showGraph = function (result) {
+        $('.graphReport').removeClass('hide');
+
+        signal.graphReport.prepareIndividualCasesChart(result['individualCasesChart']);
+        signal.graphReport.prepareIndividualCasesByReactionGroupChart(result['individualCasesByReactionGroup']);
+        signal.graphReport.prepareReactionGroupChart(result['reactionGroup']);
+        if (result['reaction']) {
+            signal.graphReport.prepareReactionChart(result['reaction']);
+        }
+    };
+
+    return {
+        bindReportScreenEvents: bindReportScreenEvents,
+        showGraph: showGraph
+    }
+
+})();
+
+

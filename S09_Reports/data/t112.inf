@@ -1,0 +1,11 @@
+[t112]
+FileName1=t112_fab-0bcedd3f777268a38ded227a4b308710.css
+URL1=http://10.100.22.24:8181/signal/assets/fab-0bcedd3f777268a38ded227a4b308710.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_112.xml
+RequestHeaderFile=t112_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t112_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
