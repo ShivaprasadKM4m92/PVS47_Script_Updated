@@ -1,0 +1,4 @@
+"selectedRows=%5B%7B%22configObj.id%22%3A43%2C%22executedConfigObj.id%22%3A61%2C%22alert.id%22%"
+"3A28%7D%2C%7B%22configObj.id%22%3A43%2C%22executedConfigObj.id%22%3A61%2C%22alert.id%22%3A29%7"
+"D%5D&justification=Validation+of+current+case%2FPEC+based+on+available+evidences%3Cdiv+class%3"
+"D%22box%22%3E%3C%2Fdiv%3E&targetDisposition.id=13&incomingDisposition=New"
