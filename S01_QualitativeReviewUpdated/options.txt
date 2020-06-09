@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVS\Scripts\S01_QualitativeReviewTest
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvs\scripts\s01_qualitativereviewtest\\logfile.log
+c:\project\pvs\scripts\s01_qualitativereviewtest\\combined_S01_QualitativeReviewTest.c
+c:\project\pvs\scripts\s01_qualitativereviewtest\\pre_cci.c

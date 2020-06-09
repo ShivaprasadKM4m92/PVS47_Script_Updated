@@ -1,0 +1,180 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: signal",
+                "infFile": "t1.inf",
+                "time": 1591709931611
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t2.inf",
+                "time": 1591709939973
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: saveDashboardConfig",
+                "infFile": "t15.inf",
+                "time": 1591709974840
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: review",
+                "infFile": "t16.inf",
+                "time": 1591709976412
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: priorities",
+                "infFile": "t17.inf",
+                "time": 1591709977983
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: workflowState",
+                "infFile": "t18.inf",
+                "time": 1591709978815
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: listConfig",
+                "infFile": "t19.inf",
+                "time": 1591709979730
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: details",
+                "infFile": "t20.inf",
+                "time": 1591709983956
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: changePriorityOfAlert",
+                "infFile": "t24.inf",
+                "time": 1591709993265
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: changePriorityOfAlert_2",
+                "infFile": "t25.inf",
+                "time": 1591709994146
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: searchUserGroupList",
+                "infFile": "t26.inf",
+                "time": 1591709994933
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: searchUserGroupList_2",
+                "infFile": "t27.inf",
+                "time": 1591709995729
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: searchUserGroupList_3",
+                "infFile": "t28.inf",
+                "time": 1591709996503
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: changeAssignedToGroup",
+                "infFile": "t29.inf",
+                "time": 1591709997375
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: searchUserGroupList_4",
+                "infFile": "t30.inf",
+                "time": 1591709998190
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: searchUserGroupList_5",
+                "infFile": "t31.inf",
+                "time": 1591709998892
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: changeAssignedToGroup_2",
+                "infFile": "t32.inf",
+                "time": 1591709999753
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: index",
+                "infFile": "t34.inf",
+                "time": 1591710001869
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_01_OpenApplication",
+                "rawStartTime": 1591709928508,
+                "rawEndTime": 1591709937080,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3914632797241211
+            },
+            {
+                "transactionName": "S01_02_Login",
+                "rawStartTime": 1591709937086,
+                "rawEndTime": 1591709973798,
+                "thinkTime": 0.0,
+                "wastedTime": 0.29615235328674319
+            },
+            {
+                "transactionName": "S01_03_NavigateTriggeredAlertsQualitativeReview",
+                "rawStartTime": 1591709973803,
+                "rawEndTime": 1591709979774,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08899998664855957
+            },
+            {
+                "transactionName": "S01_04_ClickOnAlertName",
+                "rawStartTime": 1591709979779,
+                "rawEndTime": 1591709991868,
+                "thinkTime": 0.0,
+                "wastedTime": 0.12099003791809082
+            },
+            {
+                "transactionName": "S01_05_ChangePriorityNCAses",
+                "rawStartTime": 1591709992354,
+                "rawEndTime": 1591709993274,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0087890625
+            },
+            {
+                "transactionName": "S01_06_ChangePriorityNCases",
+                "rawStartTime": 1591709993279,
+                "rawEndTime": 1591709994148,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008684873580932618
+            },
+            {
+                "transactionName": "S01_07_ChangeAssignedToNCAses",
+                "rawStartTime": 1591709996507,
+                "rawEndTime": 1591709997378,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008614063262939453
+            },
+            {
+                "transactionName": "S01_08_ChangeAssignedToNCAses",
+                "rawStartTime": 1591709998902,
+                "rawEndTime": 1591709999762,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014209508895874024
+            },
+            {
+                "transactionName": "S01_09_Logout",
+                "rawStartTime": 1591709999767,
+                "rawEndTime": 1591710001871,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018474340438842775
+            }
+        ]
+    }
+]
